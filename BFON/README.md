@@ -4,15 +4,15 @@
 ## Doğrulama
 ## Methodlar
 
-* reject
-* play
-* gather
-* dial
-* hangup
-* continue
-* say (coming soon)
+* [reject](#reject)
+* [play](#play)
+* [gather](#gather)
+* [dial](#dial)
+* [hangup](#hangup)
+* [continue](#continue)
+* [say](#say) (coming soon)
 
-### [reject](#reject)
+### reject
 ### play
 ### gather
 ### dial
