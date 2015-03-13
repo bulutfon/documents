@@ -47,7 +47,7 @@
 
 ### continue
 
-### say (coming soon)
+### say (yakında eklenecek)
 
 **args**
 
