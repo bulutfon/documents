@@ -12,7 +12,7 @@
 * continue
 * say (coming soon)
 
-### reject
+### [reject](#reject)
 ### play
 ### gather
 ### dial
