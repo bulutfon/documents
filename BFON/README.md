@@ -16,7 +16,7 @@
 * [dial](#dial)
 * [hangup](#hangup)
 * [continue](#continue)
-* [say](#say) (coming soon)
+* [say](#say) (yakında eklenecek)
 
 ### reject
 
