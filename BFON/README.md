@@ -45,11 +45,7 @@
 
 ### hangup
 
-**args**
-
 ### continue
-
-**args**
 
 ### say (coming soon)
 
