@@ -3,10 +3,6 @@
 **NOT** : Bu özellik taslak aşamasındadır. Lütfen kullanmak için Bulutfon telefon numaranızla birlikte dev at bulutfon dot com'a email atınız.
 
 ## Genel Bakış
-## Doğrulama
-
-* Http Basic Authentication yöntemi kullanılacaktır.
-* Kullanıcı adı ve şifrenizi Bulutfon santral panelinizden girmelisiniz.
 
 ## Methodlar
 
