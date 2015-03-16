@@ -14,9 +14,6 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
 
 ```json
 {
-  "bfml" : {
-    "version" : 1
-  },
   "seq" : [
     {
       "action" : "play",
@@ -28,7 +25,7 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
       "action" : "say",
       "args" : {
         "lang" : "tr",
-        "text" : "Demir gibi kollarım hiç acımam sollarım."
+        "text" : "Merhaba dünya."
       }
     },
     {
