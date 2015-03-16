@@ -107,7 +107,6 @@ Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek
             "action": "say",
             "args": {
                 "lang": "tr",
-                "voice": "woman",
                 "text": "Merhaba dünya."
             }
         },
