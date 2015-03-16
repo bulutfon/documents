@@ -22,11 +22,15 @@
 
 ### play
 
+Belli bir adresteki mp3 dosyasını arayana çalar.
+
 **args**
 
 * url: "http://192.168.1.1:8000/test.mp3"
 
 ### gather
+
+Belli bir adresteki ses dosyasını araya çalar. Sonra arayanın bastığı tuşları bir değişkene atar ve harici yönetim adresine POST eder. 
 
 **args**
 
@@ -39,19 +43,31 @@
 
 ### dial
 
+Arayanı menüye, grubu, dahiliye veya harici bir numaraya yönlendirir.
+
 **args**
 
 * destination: "1000"
 
+**Notlar**
+
+* Bulutfon'da menüler 2 haneli, gruplar 3 haneli, dahililer 4 hanelidir.
+* Harici numaralara yönlendirmede aranan operatöre göre bir yönlendirme ücreti alınır.
+
 ### hangup
+
+Arayana telefon kapatılır.
 
 ### continue
 
+Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek yapar.
+
 ### say (yakında eklenecek)
+
+Şuan sistemde text to speech özelliği yoktur.
 
 **args**
 
 * lang: "tr",
 * voice: "woman",
-* text: "Demir gibi kollarım hiç acımam sollarım."
-
+* text: "Merhaba, dünya."
