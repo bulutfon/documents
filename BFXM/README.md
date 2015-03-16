@@ -12,7 +12,7 @@ POST isteğinde BFXM şu parametreleri gönderir.
 
 BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
 
-```
+```json
 {
   "bfml" : {
     "version" : 1
