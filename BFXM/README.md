@@ -2,7 +2,9 @@
 
 Bulutfon, harici bir web sunucusundan BFON formatında alacağı direktif dosyaları ile pbx davranışlarını düzenleyebilir. Bu özelliğe BFXM diyoruz. 
 
-Kullanıcılar, panellerindeki uygulamalar menüsünden yeni bir BFXM oluşturup, çağrı geldiği anda kendi belirledikleri bir urlye istek yaptırabilirler. İstek bir HTTP POST isteğidir. Kullanıcı diler ise bu isteğin HTTP Basic Auth olarak yapılmasını sağlayabilir.
+## Genel Bilgi
+
+Kullanıcılar, panellerindeki uygulamalar menüsünden yeni bir BFXM oluşturup, çağrı geldiği anda kendi belirledikleri bir urlye istek yaptırabilirler. İstek bir HTTP POST isteğidir. 
 
 POST isteğinde BFXM şu parametreleri gönderir.
  - "uuid" : Çağrı için universally unique identifier. Bu değer daha sonra raporlamalarda çağrıyı bulmak için de kullanılabilir.
@@ -37,6 +39,11 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
   ]
 }
 ```
+
+## Doğrulama
+
+* Http Basic Authentication yöntemi kullanılacaktır.
+* Kullanıcı adı ve şifrenizi Bulutfon santral panelinizden girmelisiniz.
 
 ## BFON Direktifleri
 
