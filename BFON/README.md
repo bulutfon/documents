@@ -1,7 +1,5 @@
 # BFON - BulutFon Object Notation
 
-**NOT** : Bu özellik taslak aşamasındadır. Lütfen kullanmak için Bulutfon telefon numaranızla birlikte dev at bulutfon dot com'a email atınız.
-
 ## Genel Bakış
 
 ## Methodlar
