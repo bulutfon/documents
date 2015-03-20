@@ -1,5 +1,7 @@
 # BFXM - BulutFon eXternal Manager
 
+**NOT** : BFXM şuan beta aşamasındadır. Bu özelliği aktif ettirmek için dev @ bulutfon.com email adresine email atınız.
+
 Bulutfon, harici bir web sunucusundan BFON formatında alacağı direktif dosyaları ile pbx davranışlarını düzenleyebilir. Bu özelliğe BFXM diyoruz. 
 
 ## Genel Bilgi
