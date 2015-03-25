@@ -11,17 +11,14 @@
 		echo json_encode(['error'=>'parameters missing']);
 		die();
 	}
-	//$db = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
-
-
-
+	
 	switch ($step) {
 		case 1:
 			$cevap = [
-				"bfml"=>["version"=>1],
-				"seq"=>[[
-					"action"=>"play",
-					"args"=>["url"=> "http://bfxmdemo.bulutfon.com/demosesler/demo-hosgeldiniz.mp3"]
+				"bfml" => ["version" => 1],
+				"seq" => [[
+					"action" => "play",
+					"args" => ["url" => "http://bfxmdemo.bulutfon.com/demosesler/demo-hosgeldiniz.mp3"]
 				],
 				[
 					"action" => "gather",
@@ -32,7 +29,7 @@
 				        "ask"  => "http://bfxmdemo.bulutfon.com/demosesler/numara-tuslayiniz.mp3",
 				        "play_on_error"  => "http://bfxmdemo.bulutfon.com/demosesler/hatali-giris.mp3",
 				        "variable_name"  => "returnvar",
-			      ]
+				]
 
 				]],
 
@@ -42,10 +39,10 @@
 			break;
 		case 2:
 			$cevap = [
-				"bfml"=>["version"=>1],
-				"seq"=>[[
-					"action"=>"play",
-					"args"=>["url"=> "http://bfxmdemo.bulutfon.com/demosesler/tesekkurler.mp3"]
+				"bfml" => ["version" => 1],
+				"seq" => [[
+					"action" => "play",
+					"args" => ["url" => "http://bfxmdemo.bulutfon.com/demosesler/tesekkurler.mp3"]
 				],
 				[
 					"action" => "hangup"
