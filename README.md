@@ -1,2 +1,12 @@
-# documents
-Bulutfon ile ilgili geliştirici notları
+# Bulutfon Geliştirici Dökümanları
+
+Bulutfon'la entegre üçüncü parti uygulama geliştirmeyi planlayanlar için dökümantasyonlar, örnek kodları içeren repodur. Geliştiriciler sorularını [Bulutfon Geliştirici Formu](http://devforums.bulutfon.com)'dan sorabilir.
+
+# İçindekiler
+
+* [BFON - BulutFon Object Notation](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation)
+* [BFXM - BulutFon eXternal Manager](https://github.com/bulutfon/documents/tree/master/BFXM#bfxm---bulutfon-external-manager)
+
+# İletişim
+
+Her türlü sorunuzu dev at bulutfon dot com email adresine sorabilirsiniz.
