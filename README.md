@@ -1,6 +1,6 @@
 # Bulutfon Geliştirici Dökümanları
 
-Bulutfon'la entegre üçüncü parti uygulama geliştirmeyi planlayanlar için dökümantasyonlar, örnek kodları içeren repodur. Geliştiriciler sorularını [Bulutfon Geliştirici Formu](http://devforums.bulutfon.com)'dan sorabilir.
+Bulutfon'la entegre üçüncü parti uygulama geliştirmeyi planlayanlar için dökümantasyonlar, örnek kodları içeren repodur. Geliştiriciler sorularını [Bulutfon Geliştirici Forumuna](http://devforums.bulutfon.com) sorabilir.
 
 # İçindekiler
 
