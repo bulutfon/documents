@@ -24,7 +24,7 @@ Belli bir adresteki mp3 dosyasını arayana çalar.
 
 ### gather
 
-Belli bir adresteki ses dosyasını araya çalar. Sonra arayanın bastığı tuşları bir değişkene atar ve harici yönetim adresine POST eder. 
+Belli bir adresteki ses dosyasını arayana çalar. Sonra arayanın bastığı tuşları bir değişkene atar ve harici yönetim adresine POST eder. 
 
 **args**
 
@@ -37,7 +37,7 @@ Belli bir adresteki ses dosyasını araya çalar. Sonra arayanın bastığı tu�
 
 ### dial
 
-Arayanı menüye, grubu, dahiliye veya harici bir numaraya yönlendirir.
+Arayanı menüye, gruba, dahiliye veya harici bir numaraya yönlendirir.
 
 **args**
 
