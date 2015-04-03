@@ -25,7 +25,7 @@ public class bfxm : IHttpHandler
         var _callee = _req.Form["callee"];
         var _returnvar = _req.Form["returnvar"];
 
-        _res.ContentType = "text/plain";
+        _res.ContentType = "application/json";
 
         if (_uuid == null || _caller == null || _callee == null)
         {
