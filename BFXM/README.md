@@ -42,6 +42,13 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
 }
 ```
 
+## BFXM'i Aktifleştirme
+
+1. **Uygulamalar** > **BulutfonXM** seçilir.
+2. Uygulama ismi, url girilir. Eğer doğrulama istenirse kullanıcı adı ve şifrede girilir.
+3. BulutfonXM kullanılacak numara seçimi için **Ayarlar** > **Santral Numaraları** menüsünden ilgili numara seçilir.
+4. Varsayılan hedef olarak **BulutfonXM** seçilip, ilgili uygulama seçilir.
+
 ## Doğrulama
 
 * Http Basic Authentication yöntemi kullanılacaktır.
