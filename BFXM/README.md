@@ -14,7 +14,7 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
 
 ```json
 {
-  "bfml" : {
+  "bfxm" : {
     "version" : 1
   },
   "seq" : [
