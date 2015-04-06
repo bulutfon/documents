@@ -36,7 +36,7 @@ public class bfxm : IHttpHandler
         {
             var _resp = new
             {
-                bfml = new { version = 1 },
+                bfxm = new { version = 1 },
                 seq = new List<object> {
                         new { action = "play", args = new { url = "http://bfxmdemo.bulutfon.com/demosesler/demo-hosgeldiniz.mp3" } },
                         new {
@@ -59,7 +59,7 @@ public class bfxm : IHttpHandler
         {
             var _resp = new
             {
-                bfml = new { version = 1 },
+                bfxm = new { version = 1 },
                 seq = new List<object> {
                     new { action = "play", args = new { url = "http://bfxmdemo.bulutfon.com/demosesler/tesekkurler.mp3" } },
                     new { action = "hangup"}
