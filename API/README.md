@@ -14,7 +14,7 @@
 
 * Son olarak bu gelen değeri
 
-    * client_id = Uygulama Anaytarı
+    * client_id = Uygulama Anahtarı
     * client_secret = Gizli Anahtar
     * code = sistemden dönen authorization kodunuz
     * redirect_uri = Yönlendirme url'iniz
