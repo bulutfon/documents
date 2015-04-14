@@ -4,7 +4,7 @@
 
 ## Kimlik Doğrulama ve Yetkilendirme
 * ### Uygulama oluşturma
-	**[https://api.bulutfon.com](https://api.bulutfon.com)** adresinde kullanıcı bilgileriniz ile giriş yaptıktan sonra. ** Uytgulamalarım ** menüsünün altında ** Yeni Uygulama Oluştur ** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girdikten sonra
+	**[https://api.bulutfon.com](https://api.bulutfon.com)** adresinde kullanıcı bilgileriniz ile giriş yaptıktan sonra. **Uygulamalarım** menüsünün altında **Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girdikten sonra
 	* Yetkilendir butonuna basarak veya
 	* [https://api.bulutfon.com/oauth/authorize](https://api.bulutfon.com/oauth/authorize) adresine uygulama_id'si ve redirect_uri ile istek yaparak yetkilendirmeyi sağlayabilirsiniz.
 
@@ -15,7 +15,7 @@
 
     ```
 
-    Bu işlemlerin ardından authentication_token'ınız callback_uri olarak tanımladığınız url'e ** code ** parametresi ile gönderilecektir. Diğer isteklerinizi bu kod ile yapmanız gerekmektedir.
+    Bu işlemlerin ardından authentication_token'ınız callback_uri olarak tanımladığınız url'e **code** parametresi ile gönderilecektir. Diğer isteklerinizi bu kod ile yapmanız gerekmektedir.
 ## Sadece JSON Desteği
 ## İstek Limitleri
 
