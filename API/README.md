@@ -6,7 +6,7 @@
 
 ### Uygulama oluşturma
 
-**[https://api.bulutfon.com](https://api.bulutfon.com)** adresinde kullanıcı bilgileriniz ile giriş yaptıktan sonra. **Uygulamalarım** menüsünün altında **Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girip uygulamanızı oluşturun.
+**[https://bulutfon.com](https://bulutfon.com)** adresindeki kullanıcı bilgileriniz ile panelinize giriş yaptıktan sonra. **Uygulamalar** menüsünün altında **API Uygulamaları > Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girip uygulamanızı oluşturun.
 
 * Uygulama oluşturulduktan sonra, **Yetkilendir** butonuna basarak erişim izni verin.
 
@@ -20,7 +20,7 @@
     * redirect_uri = Yönlendirme url'iniz
     * grant_type = authorization_code
 
-    parametreleri ile **[https://api.bulutfon.com/oauth/token](https://api.bulutfon.com/oauth/token)** adresine **POST** edin.
+    parametreleri ile **[https://bulutfon.com/oauth/token](https://bulutfon.com/oauth/token)** adresine **POST** edin.
 * Sonuç olarak size aşağıdaki gibi bir access token dönecektir.
 
     ```json
@@ -44,7 +44,10 @@ tokenınızı yenileyebilirsiniz.
     * redirect_uri = Yönlendirme url'iniz
     * grant_type = refresh_token
 
-    parametreleri ile **[https://api.bulutfon.com/oauth/token](https://api.bulutfon.com/oauth/token)** adresine **POST** edin.
+    parametreleri ile **[https://bulutfon.com/oauth/token](https://bulutfon.com/oauth/token)** adresine **POST** edin.
+
+Tokenınızı aldıktan sonra **[https://api.bulutfon.com](https://api.bulutfon.com)** adresinden yapacağınız isteklere **access_token** parametresi ile bu tokenı ekleyerek
+istek yapmanız gerekmektedir.
 
 
 ## Sadece JSON Desteği
