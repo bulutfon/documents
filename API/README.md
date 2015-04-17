@@ -25,11 +25,11 @@
 
 ```json
     {
-        "access_token": "16a1094343d0271126f25124fda4159717e29e8ca87068389792dbb554d24385"
-        "token_type": "bearer"
-        "expires_in": 7200
-        "refresh_token": "551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c"
-        "created_at": 1429026419
+        "access_token":"16a1094343d0271126f25124fda4159717e29e8ca87068389792dbb554d24385"
+        "token_type":"bearer"
+        "expires_in":7200
+        "refresh_token":"551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c"
+        "created_at":1429026419
     }
 ```
 
