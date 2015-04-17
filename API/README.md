@@ -25,11 +25,11 @@
 
     ```json
         {
-            access_token: "16a1094343d0271126f25124fda4159717e29e8ca87068389792dbb554d24385"
-            token_type: "bearer"
-            expires_in: 7200
-            refresh_token: "551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c"
-            created_at: 1429026419
+            "access_token": "16a1094343d0271126f25124fda4159717e29e8ca87068389792dbb554d24385"
+            "token_type": "bearer"
+            "expires_in": 7200
+            "refresh_token": "551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c"
+            "created_at": 1429026419
         }
     ```
 
@@ -83,9 +83,9 @@ Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gere
                 "direction":"LOCAL",
                 "caller":1005,
                 "callee":1006,
-                "call_time: "2015-04-16T16:17:05+03:00",
-                "answer_time: "2015-04-16T16:17:37+03:00",
-                "hangup_time: "2015-04-16T16:17:46+03:00",
+                "call_time": "2015-04-16T16:17:05+03:00",
+                "answer_time": "2015-04-16T16:17:37+03:00",
+                "hangup_time": "2015-04-16T16:17:46+03:00",
                 "call_record":"NO",
                 "hangup_cause":"NORMAL_CLEARING",
                 "hangup_state":"recv_bye"
