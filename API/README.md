@@ -23,15 +23,15 @@
     parametreleri ile **[https://bulutfon.com/oauth/token](https://bulutfon.com/oauth/token)** adresine **POST** edin.
 * Sonuç olarak size aşağıdaki gibi bir access token dönecektir.
 
-    ```json
-        {
-            "access_token": "16a1094343d0271126f25124fda4159717e29e8ca87068389792dbb554d24385"
-            "token_type": "bearer"
-            "expires_in": 7200
-            "refresh_token": "551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c"
-            "created_at": 1429026419
-        }
-    ```
+```json
+    {
+        "access_token": "16a1094343d0271126f25124fda4159717e29e8ca87068389792dbb554d24385"
+        "token_type": "bearer"
+        "expires_in": 7200
+        "refresh_token": "551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c"
+        "created_at": 1429026419
+    }
+```
 
 Bu access_token'ı api'yi kullanırken her isteğe eklemeniz gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat sonra refresh_token'ı kullanarak
 tokenınızı yenileyebilirsiniz.
