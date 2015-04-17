@@ -203,6 +203,47 @@ Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gere
     }
 ```
 
+### Sabitler
+
+Dönen json içerisindeki fieldlardaki değişken anlamları aşağıda verilmiştir.
+
+* bf_calltype : Arama Tipi
+      * voice: Telefon Araması
+      * fax: Fax
+
+* hangup_cause : Arama Sonlanma Sebebi
+      * NORMAL_CLEARING: 'Normal'
+      * USER_BUSY: 'Meşgul'
+      * NO_USER_RESPONSE: 'Kullanıcı cevaplamadı.'
+      * NO_ANSWER: 'Cevap Yok'
+      * SUBSCRIBER_ABSENT: 'SUBSCRIBER_ABSENT'
+      * CALL_REJECTED: 'Arama Reddedildi'
+      * INVALID_NUMBER_FORMAT: 'Yanlış numara formatı'
+      * ORIGINATOR_CANCEL: 'Aramayı başlatan cevaplanmadan iptal ediyor.'
+      * LOSE_RACE: 'Başkası açtı'
+      * ANSWERED: 'Cevaplandı'
+
+* hangup_state: Arama Sonlanma Durumu
+      * send_cancel: 'Sistem tarafından iptal edilen çağrı'
+      * send_bye: 'Sistem tarafından sonlandırılan çağrı'
+      * recv_refuse: 'İstemci tarafından reddedilen çağrı'
+      * recv_cancel: 'İstemci tarafından iptal edilen çağrı'
+      * send_refuse: 'Sistem tarafından reddedilen çağrı'
+      * recv_bye: 'İstemci tarafından sonlandırılan çağrı'
+
+* redirection: Arama aktarım yönü
+      * REDIRECTED_TO_MENU: Menüye aktarıldı
+      * REDIRECTED_TO_GROUP: Gruba aktarıldı
+      * REDIRECTED_TO_EXTENSION: Dahiliye Aktarıldı
+      * CONNECTING_TO_MENU: Menüye Bağlanılıyor
+      * CONNECTING_TO_GROUP: Gruba Bağlanılıyor
+      * CONNECTING_TO_EXTENSION: Dahiliye Bağlanılıyor
+      * OTHER: Diğer
+* call_record: Arama Kaydı
+      * YES: Var
+      * NO: Yok
+      * REMOVED: Silinmiş
+
 ## Sadece JSON Desteği
 ## İstek Limitleri
 
