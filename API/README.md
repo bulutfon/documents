@@ -133,7 +133,7 @@ Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gere
         "call_time": "2015-04-16T11:02:02+03:00",
         "answer_time": "2015-04-16T11:02:02+03:00",
         "hangup_time": "2015-04-16T11:04:44+03:00",
-        "call_record": "Var",
+        "call_record": "YES",
         "hangup_cause": "NORMAL_CLEARING",
         "hangup_state": "recv_bye",
         "call_flow": [
