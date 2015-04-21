@@ -80,3 +80,9 @@ Parametrelerde gönderilen metni karşı arayana okur.
 ##### Parametreleri
   - lang : Dil (tr,en)
   - text : Okunacak metin
+
+### set_caller_name
+Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanımlar.
+
+##### Parametreleri
+  - caller_name : String olarak arayan bilgisi
