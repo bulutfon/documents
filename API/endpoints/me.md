@@ -10,20 +10,20 @@ Kullanıcınız ve santraliniz hakkındaki bilgilere erişmek için kullanacağ�
 
 ```json
     {
-        user: {
-            email: "mail@mail.com",
-            name: "Ad Soyad",
-            gsm: "902222222"
+        "user": {
+            "email": "mail@mail.com",
+            "name": "Ad Soyad",
+            "gsm": "902222222"
         },
-        pbx: {
-            name: "santral",
-            url: "santral.bulutfon.net",
-            state: "CONFIRMED",
-            package: "LARGE",
-            customer_type: "CORPORATE"
+        "pbx": {
+            "name": "santral",
+            "url": "santral.bulutfon.net",
+            "state": "CONFIRMED",
+            "package": "LARGE",
+            "customer_type": "CORPORATE"
         },
-        credit: {
-            balance: "300.06"
+        "credit": {
+            "balance": "300.06"
         }
     }
 ```

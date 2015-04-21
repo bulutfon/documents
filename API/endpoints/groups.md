@@ -9,7 +9,7 @@ Gruplarınız hakkında bilgi alabileceğiniz adrestir.
 
 ### Örnek Sonuç
 
-*/groups?access_token=xxx *
+*/groups?access_token=xxx*
 
 ```json
     {
@@ -44,7 +44,7 @@ Gruplarınız hakkında bilgi alabileceğiniz adrestir.
 
 ### Detay Örnek Sonuç
 
-*/groups/1?access_token=xxx *
+*/groups/1?access_token=xxx*
 
 ```json
 {

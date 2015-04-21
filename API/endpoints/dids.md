@@ -9,7 +9,7 @@ Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceği
 
 ### Örnek Sonuç
 
-*/dids?access_token=xxx *
+*/dids?access_token=xxx*
 
 ```json
     {
@@ -41,7 +41,7 @@ Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceği
 
 ### Detay Örnek Sonuç
 
-*/dids/1?access_token=xxx *
+*/dids/1?access_token=xxx*
 
 ```json
     {
@@ -97,16 +97,16 @@ Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceği
 Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağıda verilmiştir.
 
 * State
-    * ** DRAFT: ** Taslak
-    * ** IN-PROGRESS: ** İşleme alındı
-    * ** CONFIRMED: ** Onaylandı
-    * ** CANCELED: ** Vazgeçildi
-    * ** TERMINATED: ** Kapatıldı
-    * ** NTS-DRAFT: ** NTS ile taşıma taslak
-    * ** NTS-IN-PROGRESS: ** NTS işleniyor
-    * ** NTS-CANCEL: ** NTS vazgeçildi
+    * **DRAFT:** Taslak
+    * **IN-PROGRESS:** İşleme alındı
+    * **CONFIRMED:** Onaylandı
+    * **CANCELED:** Vazgeçildi
+    * **TERMINATED:** Kapatıldı
+    * **NTS-DRAFT:** NTS ile taşıma taslak
+    * **NTS-IN-PROGRESS:** NTS işleniyor
+    * **NTS-CANCEL:** NTS vazgeçildi
 
 * Destination
-    * ** Auto attendant: ** Menü
-    * ** Group: ** Grup
-    * ** Extension: ** Dahili
+    * **Auto attendant:** Menü
+    * **Group:** Grup
+    * **Extension:** Dahili

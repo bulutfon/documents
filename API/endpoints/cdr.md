@@ -81,7 +81,7 @@ Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gere
         "call_time": "2015-04-16T11:02:02+03:00",
         "answer_time": "2015-04-16T11:02:02+03:00",
         "hangup_time": "2015-04-16T11:04:44+03:00",
-        "call_record": "Var",
+        "call_record": "YES",
         "hangup_cause": "NORMAL_CLEARING",
         "hangup_state": "recv_bye",
         "call_flow": [
@@ -157,13 +157,13 @@ Arama kayıtlarını arayan ve aranan numaraya ve belli tarih aralığına göre
 
 Filtreleme için kullanacağınız parametreler
 
-* ** caller_or_callee: ** Parametre ile gönderilen numarayı arayan ve aranan numaraya göre filtreler
-* ** caller: ** Parametre ile gönderilen numarayı arayan numaraya göre filtreler
-* ** callee: ** Parametre ile gönderilen numarayı aranan numaraya göre filtreler
-* ** time_limit: ** Zaman bazında filtreleme için kullanılır, alabileceği değerler:
-    ** ** hour: ** Son 1 saat içerisinde oluşturulan kayıtları gösterir
-    ** ** day: ** Son 24 saat içerisinde oluşturulan kayıtları gösterir
-    ** ** month: ** Son 1 ay içerisinde oluşturulan kayıtları gösterir
+* **caller_or_callee:** Parametre ile gönderilen numarayı arayan ve aranan numaraya göre filtreler
+* **caller:** Parametre ile gönderilen numarayı arayan numaraya göre filtreler
+* **callee:** Parametre ile gönderilen numarayı aranan numaraya göre filtreler
+* **time_limit:** Zaman bazında filtreleme için kullanılır, alabileceği değerler:
+    ** **hour:** Son 1 saat içerisinde oluşturulan kayıtları gösterir
+    ** **day:** Son 24 saat içerisinde oluşturulan kayıtları gösterir
+    ** **month:** Son 1 ay içerisinde oluşturulan kayıtları gösterir
 
 Zaman ve arama parametleri birlikte kullanılabilir.
 

@@ -38,7 +38,7 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 
 ```json
     {
-        error: "Token expired"
+        "error": "Token expired"
     }
 ```
 
@@ -57,11 +57,11 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 
 ## EndPoint'ler
 
-### **[Me](https://github.com/bulutfon/documents/blob/master/API/endpoints/me.md)**
-### **[Dids](https://github.com/bulutfon/documents/blob/master/API/endpoints/dids.md)**
-### **[Extensions](https://github.com/bulutfon/documents/blob/master/API/endpoints/extensions.md)**
-### **[Groups](https://github.com/bulutfon/documents/blob/master/API/endpoints/groups.md)**
-### **[Cdr](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md)**
+* **[Me](https://github.com/bulutfon/documents/blob/master/API/endpoints/me.md)**
+* **[Dids](https://github.com/bulutfon/documents/blob/master/API/endpoints/dids.md)**
+* **[Extensions](https://github.com/bulutfon/documents/blob/master/API/endpoints/extensions.md)**
+* **[Groups](https://github.com/bulutfon/documents/blob/master/API/endpoints/groups.md)**
+* **[Cdr](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md)**
 
 ## Sadece JSON Desteği
 ## İstek Limitleri
