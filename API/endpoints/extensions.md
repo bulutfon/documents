@@ -66,7 +66,7 @@ Dahilileriniz hakkında bilgi alabileceğiniz adrestir.
 Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağıda verilmiştir.
 
 * State
-    * **DRAFT: ** Taslak
+    * **DRAFT:** Taslak
     * **IN-PROGRESS:** İşleme alındı
     * **CONFIRMED:** Onaylandı
     * **CANCELED:** Vazgeçildi

@@ -33,19 +33,19 @@ Kullanıcınız ve santraliniz hakkındaki bilgilere erişmek için kullanacağ�
 Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağıda verilmiştir.
 
 * State
-    * ** DRAFT: ** Taslak
-    * ** RECANTED: ** Vazgeçildi
-    * ** CONFIRMED: ** Onaylandı
-    * ** CANCEL: ** İptal Edildi
-    * ** SUSPENDED: ** Askıya Alındı
-    * ** PRETERMINATED: ** Ön Kapama
-    * ** TERMINATED: ** Borçları nedeniyle kapatıldı
+    * **DRAFT:** Taslak
+    * **RECANTED:** Vazgeçildi
+    * **CONFIRMED:** Onaylandı
+    * **CANCEL:** İptal Edildi
+    * **SUSPENDED:** Askıya Alındı
+    * **PRETERMINATED:** Ön Kapama
+    * **TERMINATED:** Borçları nedeniyle kapatıldı
 
 * Package
-    * ** SMALL: ** Giriş Paketi
-    * ** MIDDLE: ** Orta Paket
-    * ** LARGE: ** Büyük Paket
+    * **SMALL:** Giriş Paketi
+    * **MIDDLE:** Orta Paket
+    * **LARGE:** Büyük Paket
 
 * Customer Type
-    * ** INVIDUAL: ** Bireysel Müşter
-    * ** CUSTOMER: ** Kurumsal Müşteri
+    * **INVIDUAL:** Bireysel Müşter
+    * **CUSTOMER:** Kurumsal Müşteri
