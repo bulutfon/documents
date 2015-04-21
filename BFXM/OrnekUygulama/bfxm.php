@@ -15,7 +15,7 @@
 	switch ($step) {
 		case 1:
 			$cevap = [
-				"bfml" => ["version" => 1],
+				"bfxm" => ["version" => 1],
 				"seq" => [[
 					"action" => "play",
 					"args" => ["url" => "http://bfxmdemo.bulutfon.com/demosesler/demo-hosgeldiniz.mp3"]
