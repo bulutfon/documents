@@ -74,4 +74,6 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 
 * [php-sdk](https://github.com/bulutfon/php-sdk) - Composer paketi
 
-## Katkı Sağlayın
+## Daha iyisi yapmamız için geri bildirimde bulunun!
+
+Lütfen bizlere daha iyi bir API'yi nasıl yapacağımızı söyleyin, geri bildirimde bulunun. Eğer API'de bir özelliğe ihtiyacınız varsa veya bir hata bulduysanız, lütfen [geliştirici formuna](http://devforums.bulutfon.com/c/api) konu açın. 
