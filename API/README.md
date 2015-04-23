@@ -57,13 +57,16 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 
 ## EndPoint'ler
 
-* **[Me](https://github.com/bulutfon/documents/blob/master/API/endpoints/me.md)**
-* **[Dids](https://github.com/bulutfon/documents/blob/master/API/endpoints/dids.md)**
-* **[Extensions](https://github.com/bulutfon/documents/blob/master/API/endpoints/extensions.md)**
-* **[Groups](https://github.com/bulutfon/documents/blob/master/API/endpoints/groups.md)**
-* **[Cdr](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md)**
+* **[Me](https://github.com/bulutfon/documents/blob/master/API/endpoints/me.md)** - Santral, kullanıcı bilgileri
+* **[Dids](https://github.com/bulutfon/documents/blob/master/API/endpoints/dids.md)** - Santrale bağlı telefon numaraları
+* **[Extensions](https://github.com/bulutfon/documents/blob/master/API/endpoints/extensions.md)** - Dahililer
+* **[Groups](https://github.com/bulutfon/documents/blob/master/API/endpoints/groups.md)** - Gruplar
+* **[Cdr](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md)** - Arama kayıtları
 
-## Sadece JSON Desteği
+## XML Değil Sadece JSON Desteği
+
+Sadece JSON formatınını destekliyoruz. 
+
 ## İstek Limitleri
 
 [429 Too Many Requests](http://tools.ietf.org/html/draft-nottingham-http-new-status-02#section-4)
