@@ -4,9 +4,9 @@ Bulutfon'la entegre üçüncü parti uygulama geliştirmeyi planlayanlar için d
 
 # İçindekiler
 
-* [BFON - BulutFon Object Notation](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation)
-* [BFXM - BulutFon eXternal Manager](https://github.com/bulutfon/documents/tree/master/BFXM#bfxm---bulutfon-external-manager)
-* [API](https://github.com/bulutfon/documents/blob/master/API/README.md)
+* [BFON](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation) - BulutFon Object Notation
+* [BFXM](https://github.com/bulutfon/documents/tree/master/BFXM#bfxm---bulutfon-external-manager) - BulutFon eXternal Manager
+* [API](https://github.com/bulutfon/documents/blob/master/API/README.md) - BulutFon API 
 
 # İletişim
 
