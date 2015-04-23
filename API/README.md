@@ -69,9 +69,9 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 [429 Too Many Requests](http://tools.ietf.org/html/draft-nottingham-http-new-status-02#section-4)
 
 ## HTTP Statü Kodları
-## Bölümler & Kapsamlar
 
-* CDR (Call Detail Records) - Arama Kayıtları
-* Records - Görüşme Ses Dosyaları
+## Kütüphaneler & SDK'lar
+
+* [php-sdk](https://github.com/bulutfon/php-sdk) - Composer paketi
 
 ## Katkı Sağlayın
