@@ -8,6 +8,8 @@
 
 **[https://bulutfon.com](https://bulutfon.com)** adresindeki kullanıcı bilgileriniz ile panelinize giriş yaptıktan sonra. **Uygulamalar** menüsünün altında **API Uygulamaları > Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girip uygulamanızı oluşturun.
 
+* Uygulamada vereceğiniz yönlendirme adresi 'https' olmalıdır. Development ortamında test edebilmek için **[ngrok](https://ngrok.com/)** kullanabilirsiniz.
+
 * Uygulama oluşturulduktan sonra, **Yetkilendir** butonuna basarak erişim izni verin.
 
 * Bu işlemlerin ardından authorization kodunuz yönlendirme adresi olarak tanımladığınız url'e **code** parametresi ile gönderilecektir.
