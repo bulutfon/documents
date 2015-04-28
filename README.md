@@ -1,13 +1,12 @@
 # Bulutfon Geliştirici Dökümanları
 
-Bulutfon'la entegre üçüncü parti uygulama geliştirmeyi planlayanlar için dökümantasyonlar, örnek kodları içeren repodur. Geliştiriciler sorularını [Bulutfon Geliştirici Forumuna](http://devforums.bulutfon.com) sorabilir.
+Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin ihtiyaç duyduğu bütün dökümanlar bü repodadır.
 
-# İçindekiler
-
-* [BFON](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation) - BulutFon Object Notation
+# Hızlı Bir Başlangıç
+* [API](https://github.com/bulutfon/documents/blob/master/API/README.md) - OAuth2, Restfull standartında API'dir.
 * [BFXM](https://github.com/bulutfon/documents/tree/master/BFXM#bfxm---bulutfon-external-manager) - BulutFon eXternal Manager
-* [API](https://github.com/bulutfon/documents/blob/master/API/README.md) - BulutFon API 
+* [BFON](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation) - BulutFon Object Notation
 
 # İletişim
 
-Her türlü sorunuzu dev at bulutfon dot com email adresine sorabilirsiniz.
+* [Bulutfon Geliştirici Forumu](http://devforums.bulutfon.com)
