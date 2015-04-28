@@ -41,7 +41,11 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
 }
 ```
 
-##BFON Direktifleri
+## Örnek Uygulamalar
+
+* [https://github.com/netinternet/bfxm-whmcs](https://github.com/netinternet/bfxm-whmcs) - Arama gelince WHMCS'den müşteri bilgileri alınıp, hipchatten bildirimi çıkıyor.
+
+## BFON Direktifleri
 
 ### play
 Mp3 formatında, kullanıcı tarafında host edilen dosyayı çalar
