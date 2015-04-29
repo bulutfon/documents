@@ -93,4 +93,4 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
  
 ## Kütüphaneler & SDK'lar
 
-* [https://github.com/hakanersu/bfxm](https://github.com/hakanersu/bfxm) - BFXM'i yaratan php wrapper, composer paketi
+* [https://github.com/hakanersu/bfxm](https://github.com/hakanersu/bfxm) - Bfxm için BFON yaratan PHP composer paketi.
