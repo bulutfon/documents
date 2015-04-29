@@ -1,6 +1,6 @@
 # Bulutfon Geliştirici Dökümanları
 
-Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin ihtiyaç duyduğu bütün dökümanlar bü repodadır.
+Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin ihtiyaç duyduğu bütün dökümanlar bu repodadır.
 
 # Hızlı Bir Başlangıç
 * [API](https://github.com/bulutfon/documents/blob/master/API/README.md)
