@@ -90,7 +90,7 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 
 ##### Parametreleri
   - caller_name : String olarak arayan bilgisi
-  - 
+ 
 ## Kütüphaneler & SDK'lar
 
 * [https://github.com/hakanersu/bfxm](https://github.com/hakanersu/bfxm) - BFXM'i yaratan php wrapper, composer paketi
