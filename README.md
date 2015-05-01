@@ -31,21 +31,21 @@ BFXM, API'de kullanabileceğiniz JSON standartıdır. BFXM, BFON'daki [methodlar
 
 ## API
 
-[x] Ses kayıtlarının indirilmesi
-[x] Gelen fakslar gösterilmesi
-[x] Giden fakslar gösterilmesi
-[x] Faks gönderme
-[x] Otomatik aramaların gösterilmesi
-[x] Otomatik arama oluşturma
+* [x] Ses kayıtlarının indirilmesi
+* [x] Gelen fakslar gösterilmesi
+* [x] Giden fakslar gösterilmesi
+* [x] Faks gönderme
+* [x] Otomatik aramaların gösterilmesi
+* [x] Otomatik arama oluşturma
 
 ## BFXM
 
-[x] Panele debug modun eklenmesi
-[x] Menülerde BFXM desteği gelecek
+* [x] Panele debug modun eklenmesi
+* [x] Menülerde BFXM desteği gelecek
 
 ## BFON
 
-[x] TTS özelliği eklenecek
+* [x] TTS özelliği eklenecek
 
 # İletişim
 
