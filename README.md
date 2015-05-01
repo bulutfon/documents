@@ -27,6 +27,26 @@ BFXM, API'de kullanabileceğiniz JSON standartıdır. BFXM, BFON'daki [methodlar
 
 * [BFON Dökümanları](https://github.com/bulutfon/documents/tree/master/BFON)
 
+# İş listesi
+
+## API
+
+[x] Ses kayıtlarının indirilmesi
+[x] Gelen fakslar gösterilmesi
+[x] Giden fakslar gösterilmesi
+[x] Faks gönderme
+[x] Otomatik aramaların gösterilmesi
+[x] Otomatik arama oluşturma
+
+## BFXM
+
+[x] Panele debug modun eklenmesi
+[x] Menülerde BFXM desteği gelecek
+
+## BFON
+
+[x] TTS özelliği eklenecek
+
 # İletişim
 
 * Her türlü soru, önerileriniz için [Bulutfon Geliştirici Forumunu](http://devforums.bulutfon.com) kullanabilirsiniz.
