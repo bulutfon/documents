@@ -1,18 +1,18 @@
 # BFON - BulutFon Object Notation
 
-## Genel Bakış
+BFON, Bulutfon tarafından belirlenen bir [JSON](http://www.json.org/) standartıdır. BFON ile geliştiriciler Bulutfon'a görüşme anında telefonu kapatma, belli bir ses dosyasını okuma, basılan tuşları algılama gibi işlemleri yaptırtabilirler.
 
 ## Methodlar
 
-* [reject](#reject)
 * [play](#play)
+* [continue](#continue)
+* [say](#say) (yakında eklenecek)
 * [gather](#gather)
 * [dial](#dial)
 * [hangup](#hangup)
-* [continue](#continue)
-* [say](#say) (yakında eklenecek)
+* [reject](#reject)
 
-### reject
+
 
 ### play
 
@@ -48,10 +48,6 @@ Arayanı menüye, gruba, dahiliye veya harici bir numaraya yönlendirir.
 * Bulutfon'da menüler 2 haneli, gruplar 3 haneli, dahililer 4 hanelidir.
 * Harici numaralara yönlendirmede aranan operatöre göre bir yönlendirme ücreti alınır.
 
-### hangup
-
-Arayana telefon kapatılır.
-
 ### continue
 
 Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek yapar.
@@ -65,6 +61,14 @@ Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek
 * lang: "tr",
 * voice: "woman",
 * text: "Merhaba, dünya."
+
+### hangup
+
+Arama anında arayana telefonu kapatır.
+
+### reject
+
+Gelen aramayı hiç açmadan kapatır. Hangup ile arasında temel fark `hangup` görüşme anında kapatırken, `reject` gelen çağrıyı hiç açmadan, çalma aşamasında kapatır.
 
 ## Örnek
 
