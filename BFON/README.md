@@ -5,10 +5,10 @@ BFON, Bulutfon tarafından belirlenen bir [JSON](http://www.json.org/) standart�
 ## Methodlar
 
 * [play](#play)
-* [continue](#continue)
-* [say](#say) (yakında eklenecek)
 * [gather](#gather)
 * [dial](#dial)
+* [continue](#continue)
+* [say](#say) (yakında eklenecek)
 * [hangup](#hangup)
 * [reject](#reject)
 
@@ -37,7 +37,7 @@ Belli bir adresteki ses dosyasını arayana çalar. Sonra arayanın bastığı t
 
 ### dial
 
-Arayanı menüye, gruba, dahiliye veya harici bir numaraya yönlendirir.
+Arayanı menüye, gruba, dahiliye veya harici bir numaraya yönlendirir. 
 
 **args**
 
@@ -61,6 +61,10 @@ Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek
 * lang: "tr",
 * voice: "woman",
 * text: "Merhaba, dünya."
+
+**Notlar**
+
+* Bu özellik kelime başına bir ücrete tabii olacaktır. O yüzden bütün cümleyi değil değişken olan bölümü `say` yöntemiyle kullanmanı önerilir.
 
 ### hangup
 
