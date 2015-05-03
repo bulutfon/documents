@@ -94,3 +94,12 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 ## Kütüphaneler & SDK'lar
 
 * [https://github.com/hakanersu/bfxm](https://github.com/hakanersu/bfxm) - Bfxm için BFON yaratan PHP composer paketi.
+
+## Açık Kaynak Projeler
+
+* [netinternet/bfxm-whmcs](https://github.com/netinternet/bfxm-whmcs) - [Netinternet](netinternet.com.tr) firmasının geliştirdiği [Whmcs](www.whmcs.com), [Hipchat](www.hipchat), BFXM uygulaması. Arayan müşterinin son beş destek talebini hipchatte gösteriyor.
+
+## Daha iyisi yapmamız için geri bildirimde bulunun!
+
+Lütfen bizlere daha iyi bir API'yi nasıl yapacağımızı söyleyin, geri bildirimde bulunun. Eğer API'de bir özelliğe ihtiyacınız varsa veya bir hata bulduysanız, lütfen [geliştirici formuna](http://devforums.bulutfon.com/) konu açın.
+
