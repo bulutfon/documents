@@ -14,18 +14,21 @@ Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin iht
 Bulutfon, API'si OAuth2 ve Restfull standartlara göre yapılmış sadece JSON tipini desteklemektedir. Bulutfon API'si ile santral numaraları, dahililer, gruplar, arama kayıtları, faks gibi Bulutfon panelindeki işlemleri yapabilir ve yönetebilirsiniz.
 
 * [API Dökümanları](https://github.com/bulutfon/documents/blob/master/API/README.md)
+* [API Geliştirici Formu](http://devforums.bulutfon.com/c/api)
 
 ## BFXM - BulutFon External Management
 
 BFXM, çağrı anında sizlerin belirlediği bir url adresine istek yapar. İsteğin cevabına göre şekilde görüşmeyi yönetir. Örneğin şu ses dosyasını okuyun, bastığı tuşu algılayın, şu dahiliye yönlendirin gibi işlemleri BFXM ile görüşme anında yapabilirsiniz.
 
 * [BFXM Dökümanları](https://github.com/bulutfon/documents/tree/master/BFXM)
+* [BFXM Geliştirici Formu](http://devforums.bulutfon.com/c/bfxm)
 
 ## BFON - Bulutfon Object Notation
 
 BFXM, API'de kullanabileceğiniz JSON standartıdır. BFXM, BFON'daki [methodları](https://github.com/bulutfon/documents/tree/master/BFON#methodlar) destekler.
 
 * [BFON Dökümanları](https://github.com/bulutfon/documents/tree/master/BFON)
+* [BFON Geliştirici Formu](http://devforums.bulutfon.com/c/bfon)
 
 # İş listesi
 
