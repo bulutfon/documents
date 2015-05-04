@@ -65,7 +65,7 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 
 ## XML Değil Sadece JSON Desteği
 
-Sadece JSON formatınını destekliyoruz. 
+Sadece JSON formatını destekliyoruz. 
 
 ## İstek Limitleri
 
