@@ -4,8 +4,8 @@
 Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gerekmektedir.
 
 #### URL'ler
-* `GET /cdr.json` Santrale ait arama kayıtlarını geri döndürür
-* `GET /cdr/uuid.json` Arama Kaydının detayını döndürür
+* `GET /cdrs.json` Santrale ait arama kayıtlarını geri döndürür
+* `GET /cdrs/uuid.json` Arama Kaydının detayını döndürür
 
 #### Arama Kaydı Örnek Sonuç
 
