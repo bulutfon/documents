@@ -1,5 +1,4 @@
 ### CDR
-=======
 
 Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gerekmektedir.
 
