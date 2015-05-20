@@ -37,8 +37,8 @@ Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağı
     * **RECANTED:** Vazgeçildi
     * **CONFIRMED:** Onaylandı
     * **CANCEL:** İptal Edildi
-    * **SUSPENDED:** Askıya Alındı
-    * **PRETERMINATED:** Ön Kapama
+    * **SUSPENDED:** Gelen aramalara kapalı
+    * **PRETERMINATED:** Bütün aramalara kapalı
     * **TERMINATED:** Borçları nedeniyle kapatıldı
 
 * Package
