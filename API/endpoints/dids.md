@@ -1,5 +1,4 @@
 # Dids
-======
 
 Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceğiniz adrestir.
 
