@@ -1,5 +1,4 @@
 ### Incoming Faxes
-===============
 
 Kullanıcıya gelen faksların listelenip indirilebildiği endpointtir.
 
