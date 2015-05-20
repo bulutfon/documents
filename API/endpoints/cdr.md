@@ -232,7 +232,7 @@ Dönen json içerisindeki fieldlardaki değişken anlamları aşağıda verilmi�
 * **limit:** Sayfadaki maksimum kayıt sayısı
 * **previous_page:** Önceki sayfa adresi
 * **next_page:** Sonraki Sayfa Adresi
-* **CallFlow:** Gelen aramalardaki geçilen adımlar
+* **call_flow:** Gelen aramalardaki geçilen adımlar
     * **callee:** Aranan numara, menü, grup veya dahili
     * **redirection:** Aramanın aktarılma yönü
     * **redirection_target:** Aramanın aktarıldığı numara
