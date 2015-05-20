@@ -1,5 +1,4 @@
 # ME
-====
 
 Kullanıcınız ve santraliniz hakkındaki bilgilere erişmek için kullanacağınız endpointtir.
 
