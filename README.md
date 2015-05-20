@@ -34,10 +34,6 @@ BFXM, API'de kullanabileceğiniz JSON standartıdır. BFXM, BFON'daki [methodlar
 
 ## API
 
-* [x] Ses kayıtlarının indirilmesi
-* [x] Gelen fakslar gösterilmesi
-* [x] Giden fakslar gösterilmesi
-* [x] Faks gönderme
 * [x] Otomatik aramaların gösterilmesi
 * [x] Otomatik arama oluşturma
 
