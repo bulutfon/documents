@@ -110,3 +110,18 @@ Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağı
     * **Auto attendant:** Menü
     * **Group:** Grup
     * **Extension:** Dahili
+
+### Dönen değerler
+
+* **id:** Santral Numarasının id'si
+* **number:** Santral Numarası
+* **state:** Santral Numarasının durumu
+* **destination_type:** Santral Numarasının yönlendirileceği tip (Menü, grup, dahili)
+* **destination_id:** Santral Numarasının yönlendirileceği id
+* **destination_number:** Santral Numarasının numara
+* **working_hour:** Mesai saatlerinin aktif olup olmadığı
+* **open:** Mesai saatleri içinde mi?
+* **shift_start:** Mesai başlangıcı
+* **lunch_break_start:** Öğle arası başlangıcı
+* **lunch_break_finish:** Öğle arası bitişi
+* **shift_finish:** Mesai bitişi

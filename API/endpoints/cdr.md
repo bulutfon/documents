@@ -10,62 +10,63 @@ Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gere
 #### Arama Kaydı Örnek Sonuç
 
 ```json
+{
+  "cdrs": [
     {
-        "cdrs":[
-            {
-                "uuid":"f35d3f92-e43a-11e4-b7e6-17aee3ce4e7b",
-                "bf_calltype":"voice",
-                "direction":"LOCAL",
-                "caller":1005,
-                "callee":1006,
-                "call_time":"2015-04-16T16:17:37+03:00",
-                "answer_time":null,
-                "hangup_time":"2015-04-16T16:17:46+03:00",
-                "call_record":"NO",
-                "hangup_cause":"ORIGINATOR_CANCEL",
-                "hangup_state":null
-            },
-            {
-                "uuid":"e0e02f46-e43a-11e4-b73b-17aee3ce4e7b",
-                "bf_calltype":"voice",
-                "direction":"LOCAL",
-                "caller":1005,
-                "callee":1006,
-                "call_time": "2015-04-16T16:17:05+03:00",
-                "answer_time": "2015-04-16T16:17:37+03:00",
-                "hangup_time": "2015-04-16T16:17:46+03:00",
-                "call_record":"NO",
-                "hangup_cause":"NORMAL_CLEARING",
-                "hangup_state":"recv_bye"
-            },
-            {
-                "uuid":"78e057d6-e43a-11e4-b5d7-17aee3ce4e7b",
-                "bf_calltype":"voice",
-                "direction":"IN",
-                "caller":905320000000,
-                "callee":908508850000,
-                "call_time": "2015-04-16T16:14:11+03:00",
-                "answer_time": "2015-04-16T16:14:11+03:00",
-                "hangup_time": "2015-04-16T16:18:12+03:00",
-                "call_record":"YES",
-                "hangup_cause":"NORMAL_CLEARING",
-                "hangup_state":"send_refuse"
-            },
-            {
-                "uuid":"6930557a-e43a-11e4-b591-17aee3ce4e7b",
-                "bf_calltype":"voice",
-                "direction":"IN",
-                "caller":905320000000,
-                "callee":908508850000,
-                "call_time": "2015-04-16T16:14:11+03:00",
-                "answer_time": "2015-04-16T16:14:11+03:00",
-                "hangup_time": "2015-04-16T16:18:12+03:00",
-                "call_record":"REMOVED",
-                "hangup_cause":"NORMAL_CLEARING",
-                "hangup_state":"send_refuse"
-            }
-        ]
+      "uuid": "87f444b4-fd56-11e4-acd8-ffc986c99ca0",
+      "bf_calltype": "voice",
+      "direction": "OUT",
+      "caller": 908508850000,
+      "callee": 905323440000,
+      "extension": 908508850249,
+      "call_time": "2015-05-18T15:08:01+03:00",
+      "answer_time": "2015-05-18T15:08:13+03:00",
+      "hangup_time": "2015-05-18T15:08:20+03:00",
+      "call_price": 0.01143,
+      "call_record": "Yok",
+      "hangup_cause": "NORMAL_CLEARING",
+      "hangup_state": "send_bye"
+    },
+    {
+      "uuid": "7f13c2fc-fd56-11e4-ac8a-ffc986c99ca0",
+      "bf_calltype": "voice",
+      "direction": "OUT",
+      "caller": 908508850000,
+      "callee": 905326200000,
+      "extension": 908508850249,
+      "call_time": "2015-05-18T15:07:46+03:00",
+      "answer_time": "2015-05-18T15:07:58+03:00",
+      "hangup_time": "2015-05-18T15:08:01+03:00",
+      "call_price": 0.00429,
+      "call_record": "Yok",
+      "hangup_cause": "NORMAL_CLEARING",
+      "hangup_state": "recv_bye"
+    },
+    {
+      "uuid": "76c702b2-fd56-11e4-ac58-ffc986c99ca0",
+      "bf_calltype": "voice",
+      "direction": "OUT",
+      "caller": 908508850000,
+      "callee": 905073010000,
+      "extension": 908508850249,
+      "call_time": "2015-05-18T15:07:32+03:00",
+      "answer_time": "2015-05-18T15:07:43+03:00",
+      "hangup_time": "2015-05-18T15:07:49+03:00",
+      "call_price": 0.00888,
+      "call_record": "Yok",
+      "hangup_cause": "NORMAL_CLEARING",
+      "hangup_state": "send_bye"
     }
+  ],
+  "pagination": {
+    "page": 1,
+    "total_count": 236,
+    "total_pages": 79,
+    "limit": 3,
+    "previous_page": null,
+    "next_page": "https://api.bulutfon.com/cdrs?page=2"
+  }
+}
 ```
 
 #### Arama Kaydı Detayı Örnek Sonuç
@@ -157,13 +158,15 @@ Arama kayıtlarını arayan ve aranan numaraya ve belli tarih aralığına göre
 
 Filtreleme için kullanacağınız parametreler
 
-* **caller_or_callee:** Parametre ile gönderilen numarayı arayan ve aranan numaraya göre filtreler
-* **caller:** Parametre ile gönderilen numarayı arayan numaraya göre filtreler
-* **callee:** Parametre ile gönderilen numarayı aranan numaraya göre filtreler
+* **caller_or_callee:** Parametre ile gönderilen numarayı arayan ve aranan numaraya göre filtreler (virgül ile ayırarak birden fazla numara sorgulanabilir)
+* **caller:** Parametre ile gönderilen numarayı arayan numaraya göre filtreler (virgül ile ayırarak birden fazla numara sorgulanabilir)
+* **callee:** Parametre ile gönderilen numarayı aranan numaraya göre filtreler (virgül ile ayırarak birden fazla numara sorgulanabilir)
+* **limit:** Her sayfada gösterilecek kayıt sayısını belirtir.
+* **order:** İstenilen fielda göre arama kayıtlarını sıralar. Ör: `&order=uuid,asc`
 * **time_limit:** Zaman bazında filtreleme için kullanılır, alabileceği değerler:
-    ** **hour:** Son 1 saat içerisinde oluşturulan kayıtları gösterir
-    ** **day:** Son 24 saat içerisinde oluşturulan kayıtları gösterir
-    ** **month:** Son 1 ay içerisinde oluşturulan kayıtları gösterir
+    * **hour:** Son 1 saat içerisinde oluşturulan kayıtları gösterir
+    * **day:** Son 24 saat içerisinde oluşturulan kayıtları gösterir
+    * **month:** Son 1 ay içerisinde oluşturulan kayıtları gösterir
 
 Zaman ve arama parametleri birlikte kullanılabilir.
 
@@ -207,3 +210,33 @@ Dönen json içerisindeki fieldlardaki değişken anlamları aşağıda verilmi�
       * **YES:** Var
       * **NO:** Yok
       * **REMOVED:** Silinmiş
+
+
+### Dönen değerler
+
+* **uuid:** Aramanın benzersiz id'si
+* **bf_calltype:** Aramanın tipi (Ses veya Faks)
+* **direction:** Aramanın yönü
+* **caller:** Arayan Numara
+* **callee:** Aranan Numara
+* **extension:** Arayan Dahili (Sadece aramanın yönü dışarı doğru ise dönen sonuç içinde bulunur)
+* **call_time:** Aramanın başladığı zaman damgası
+* **answer_time:** Aramanın cevaplandığı zaman damgası
+* **hangup_time:** Aramanın sonlandığı zaman damgası
+* **call_price:** Arama ücreti (Sadece aramanın yönü dışarı doğru ise dönen sonuç içinde bulunur)
+* **call_record:** Aramaya ait ses kaydının olup olmadığı
+* **hangup_cause:** Arama Sonlanma Sebebi
+* **hangup_state:** Arama Sonlanma Durumu
+* **page:** Şu anki sayfa
+* **total_count:** Toplam kayıt sayısı
+* **total_pages:** Toplam sayfa sayısı
+* **limit:** Sayfadaki maksimum kayıt sayısı
+* **previous_page:** Önceki sayfa adresi
+* **next_page:** Sonraki Sayfa Adresi
+
+* **CallFlow:** Gelen aramalardaki geçilen adımlar
+    * **callee:** Aranan numara, menü, grup veya dahili
+    * **redirection:** Aramanın aktarılma yönü
+    * **redirection_target:** Aramanın aktarıldığı numara
+    * **result:** Arama Sonucu
+

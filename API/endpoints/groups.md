@@ -82,3 +82,10 @@ Gruplarınız hakkında bilgi alabileceğiniz adrestir.
    }
 }
 ```
+
+### Dönen değerler
+
+* **id:** Grup id'si
+* **number:** Grup Numarası
+* **name:** Grup adı
+* **timeout:** Grup zaman aşımı

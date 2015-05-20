@@ -47,5 +47,22 @@ Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağı
     * **LARGE:** Büyük Paket
 
 * Customer Type
-    * **INVIDUAL:** Bireysel Müşter
-    * **CUSTOMER:** Kurumsal Müşteri
+    * **INVIDUAL:** Bireysel Müşteri
+    * **CORPORATE:** Kurumsal Müşteri
+
+### Dönen değerler
+
+* **User:** Kullanıcı bilgilerini içerir
+    * **email:** Kullanıcının mail adresi
+    * **name:** Kullanıcının ad soyadı
+    * **gsm:** Kullanıcının cep telefonu
+
+* **PBX:** Santral bilgilerini içerir
+    * **name:** Santral adı
+    * **url:** Santral url'i
+    * **state:** Santral statüsü
+    * **package:** Santral paketi
+    * **customer_type:** Müşteri tipi
+
+* **Credit:**
+    * **balance:** Kalan kontör miktarı

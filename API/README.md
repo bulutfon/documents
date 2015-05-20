@@ -61,7 +61,10 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 * **[Dids](https://github.com/bulutfon/documents/blob/master/API/endpoints/dids.md)** - Santrale bağlı telefon numaraları
 * **[Extensions](https://github.com/bulutfon/documents/blob/master/API/endpoints/extensions.md)** - Dahililer
 * **[Groups](https://github.com/bulutfon/documents/blob/master/API/endpoints/groups.md)** - Gruplar
-* **[Cdr](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md)** - Arama kayıtları
+* **[Cdrs](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md)** - Arama kayıtları
+* **[Call Records](https://github.com/bulutfon/documents/blob/master/API/endpoints/call-records.md)** - Ses kayıtları
+* **[Incoming Faxes](https://github.com/bulutfon/documents/blob/master/API/endpoints/incoming-faxes.md)** - Gelen fakslar
+* **[Outgoing Faxes](https://github.com/bulutfon/documents/blob/master/API/endpoints/outgoing-faxes.md)** - Giden fakslar
 
 ## XML Değil Sadece JSON Desteği
 
