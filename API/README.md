@@ -79,7 +79,7 @@ Sadece JSON formatını destekliyoruz.
 ## Kütüphaneler & SDK'lar
 
 * [php-sdk](https://github.com/bulutfon/php-sdk) - Composer paketi
-* [ruby-sdk](https://github.com/bulutfon/ruby-sdk) - Ruby gem
+* [.Net-SDK](https://github.com/bulutfon/dotNet-SDK) - .NET-SDK için Nuget Paketi
 
 ## Açık Kaynak Projeler
 
