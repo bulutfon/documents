@@ -1,9 +1,9 @@
-### Outgoing Faxes
-===============
+# Outgoing Faxes
 
 Bulutfon ile gönderilen faksların listelendiği endpointtir.
 
-#### URL'ler
+## URL'ler
+
 * `GET /outgoing-faxes.json` Gelen faksları listeler
 * `GET /outgoing-faxes/uuid.json` Id si verilen faksı .tiff formatında stream eder.
 * `POST /outgoing-faxes.json` API üzerinden faks gönderimi sağlar

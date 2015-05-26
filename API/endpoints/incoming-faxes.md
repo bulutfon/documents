@@ -1,9 +1,8 @@
-### Incoming Faxes
-===============
+# Incoming Faxes
 
 Kullanıcıya gelen faksların listelenip indirilebildiği endpointtir.
 
-#### URL'ler
+## URL'ler
 * `GET /incoming-faxes.json` Gelen faksları listeler
 * `GET /incoming-faxes/uuid.json` Id si verilen faksı .tiff formatında stream eder.
 

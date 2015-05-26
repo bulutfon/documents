@@ -84,6 +84,7 @@ Sadece JSON formatını destekliyoruz.
 ## Açık Kaynak Projeler
 
 * [Projekod/BulutfonCart-Lite](https://github.com/Projekod/BulutfonCart-Lite) - [Projekod](http://projekod.com/) firmasının yaptığı [Opencart](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=21996) eklentisi. 
+* [hakanersu/bulutfon-whmcs](https://github.com/hakanersu/bulutfon-whmcs) - [Hakan Ersu](https://github.com/hakanersu)  tarafından geliştirdiği [Whmcs](http://whmcs.com/) eklentisi.
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 

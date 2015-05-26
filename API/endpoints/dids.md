@@ -1,5 +1,4 @@
 # Dids
-======
 
 Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceğiniz adrestir.
 
@@ -18,21 +17,27 @@ Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceği
              "id":1,
              "number":"900000000000",
              "state":"CONFIRMED",
-             "destination":"10 - Auto attendant",
+             "destination_type": "Auto attendant",
+             "destination_id": 13,
+             "destination_number": 10,
              "working_hour":true
           },
           {
              "id":2,
              "number":"900000000000",
              "state":"CONFIRMED",
-             "destination":"101 - Group",
+             "destination_type": "Group",
+             "destination_id": 133,
+             "destination_number": 101,
              "working_hour":true
           },
           {
              "id":3,
              "number":"900000000000",
              "state":"CONFIRMED",
-             "destination":"1001 - Extension",
+             "destination_type": "Extension",
+             "destination_id": 135,
+             "destination_number": 1001,
              "working_hour":false
           }
        ]
@@ -49,7 +54,9 @@ Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceği
           "id":1,
           "number":"900000000000",
           "state":"CONFIRMED",
-          "destination":"10 - Auto attendant",
+          "destination_type": "Auto attendant",
+          "destination_id": 13,
+          "destination_number": 10,
           "working_hour":true,
           "working_hours":{
              "monday":{
