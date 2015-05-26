@@ -48,7 +48,9 @@ Bulutfon ile gönderilen faksların listelendiği endpointtir.
     "recipients": [
       {
         "number": 908508850000,
-        "state": "SENT"
+        "state": "SENT",
+        "hangup_cause": "NORMAL_CLEARING",
+        "hangup_state": "send_bye"
       }
     ]
   }

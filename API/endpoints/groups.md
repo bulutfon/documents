@@ -18,25 +18,33 @@ Gruplarınız hakkında bilgi alabileceğiniz adrestir.
              "id":1,
              "number":101,
              "name":"Teknik Destek",
-             "timeout":30
+             "timeout":30,
+             "delay_time": 0,
+             "ring_duration": 30
           },
           {
              "id":2,
              "number":102,
              "name":"Diğer Birimler Mesai İçi",
-             "timeout":30
+             "timeout":30,
+             "delay_time": 0,
+             "ring_duration": 30
           },
           {
              "id":3,
              "number":100,
              "name":"Diğer Birimler Mesai Dışı",
-             "timeout":30
+             "timeout":30,
+             "delay_time": 0,
+             "ring_duration": 30
           },
           {
              "id":4,
              "number":103,
              "name":"İngilizce Bilenler",
-             "timeout":30
+             "timeout":30,
+             "delay_time": 0,
+             "ring_duration": 30
           }
        ]
     }
