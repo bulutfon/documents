@@ -66,6 +66,16 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 * **[Incoming Faxes](https://github.com/bulutfon/documents/blob/master/API/endpoints/incoming-faxes.md)** - Gelen fakslar
 * **[Outgoing Faxes](https://github.com/bulutfon/documents/blob/master/API/endpoints/outgoing-faxes.md)** - Giden fakslar
 
+## Masaüstü Uygulamada Token Almak
+
+Masaüstü uygulamanızda token almak hali hazırda bir webserver olmadığı için sorun yaratmaktadır. Bunu çözmek için:
+
+* Uygulama oluştururken yönlendirme adresini `urn:ietf:wg:oauth:2.0:oob` olarak tanımlayın.
+* Desktop uygulamanızda kullanıcınızı link ile veya uygulamanızın içerisinde bir browser açarak standart akışta da bulunan erişim isteyeceğiniz adrese yönlendirin.
+* Kullanıcın erişimi onayladıktan sonra, yetkilendirme kodunun yazdığı html bir sayfaya yönlendirilecektir.
+* Kullanıcıdan gördüğü erişim anahtarını bir textbox'a kopyalayıp yapıştırmasını isteyip, ardından bu değişkeni `code` parametresi olarak kullanarak access token'ınızı alabilirsiniz.
+* Bu işlem tek seferlik olacaktır. Access token'ı bir kez aldığınız zaman yenilemek için refresh token yetecektir.
+
 ## XML Değil Sadece JSON Desteği
 
 Sadece JSON formatını destekliyoruz. 
