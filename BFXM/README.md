@@ -101,7 +101,7 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 
 ## Eğitim Videoları
 
-* [BulutfonXM ile Numara Engelleme Örneği](https://www.youtube.com/watch?v=4DeFu8JvG3o&feature=youtu.be)
+* [BFXM ile Numara Engelleme Örneği](https://www.youtube.com/watch?v=4DeFu8JvG3o&feature=youtu.be)
 
 ## Daha iyisi yapmamız için geri bildirimde bulunun!
 
