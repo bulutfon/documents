@@ -65,6 +65,8 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 * **[Call Records](https://github.com/bulutfon/documents/blob/master/API/endpoints/call-records.md)** - Ses kayıtları
 * **[Incoming Faxes](https://github.com/bulutfon/documents/blob/master/API/endpoints/incoming-faxes.md)** - Gelen fakslar
 * **[Outgoing Faxes](https://github.com/bulutfon/documents/blob/master/API/endpoints/outgoing-faxes.md)** - Giden fakslar
+* **[Announcements](https://github.com/bulutfon/documents/blob/master/API/endpoints/announcements.md)** - Ses Dosyaları
+* **[Automatic Calls](https://github.com/bulutfon/documents/blob/master/API/endpoints/automatic-calls.md)** - Otomatik Aramalar
 
 ## Masaüstü Uygulamada Token Almak
 
