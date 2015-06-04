@@ -32,11 +32,6 @@ BFXM, API'de kullanabileceğiniz JSON standartıdır. BFXM, BFON'daki [methodlar
 
 # İş listesi
 
-## API
-
-* [x] Otomatik aramaların gösterilmesi
-* [x] Otomatik arama oluşturma
-
 ## BFXM
 
 * [x] Panele debug modun eklenmesi
