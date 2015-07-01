@@ -24,7 +24,7 @@ Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğini
     * **direction:** Arama yönü (Gelen arama (IN) veya Giden Arama(OUT))
     * **timestamp:** İşlemin gerçekleştiği zaman
 
-Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md#arama-kaydı-detayı-Örnek-sonuç) verileri gönderilir.
+Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md#arama-kaydı-detayı-Örnek-sonuç){:target="_blank"} verileri gönderilir.
 # Örnek istekler
 
 Arama Başlangıcı
