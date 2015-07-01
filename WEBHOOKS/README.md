@@ -22,7 +22,7 @@ WebHook ile tetiklenebilecek eventlar.
  * Arama Bitişi
  * Gelen Faks
 
- Bu eventların bir ya da birden fazlası seçilebilir
+Bu eventların bir ya da birden fazlası seçilebilir
 
 ## Gönderilecek parametreler
 
