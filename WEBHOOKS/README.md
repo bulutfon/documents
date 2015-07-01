@@ -14,7 +14,17 @@ web kancasını oluşturabiliriz.
 
 Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğiniz adrese POST edilecektir.
 
-## Gönderilen parametreler
+## Eventlar
+
+WebHook ile tetiklenebilecek eventlar.
+
+ * Arama Başlangıcı
+ * Arama Bitişi
+ * Gelen Faks
+
+ Bu eventların bir ya da birden fazlası seçilebilir
+
+## Gönderilecek parametreler
 
 * Arama Başlangıcı ve Gelen Faksta
     * **event_type:** Olay tipi (call_init = Arama Başlangıcı, call_hangup = Arama Bitişi, fax_init = Gelen Fax)
@@ -25,9 +35,10 @@ Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğini
     * **timestamp:** İşlemin gerçekleştiği zaman
 
 Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md#arama-kaydı-detayı-Örnek-sonuç) verileri gönderilir.
-## Örnek istekler
 
-Arama Başlangıcı
+## Örnek Eventlar
+
+### Arama Başlangıcı
 
 ```json
 {
@@ -40,7 +51,7 @@ Arama Başlangıcı
 }
 ```
 
-Arama Bitişi
+### Arama Bitişi
 
 ```json
 {
