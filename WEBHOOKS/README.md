@@ -1,6 +1,6 @@
 # Web Kancaları
 
-Web Kancaları, arama başladığında, sonlandığında ve yeni bir faks geldiğinde tetiklenir.
+Web Kancaları, arama başladığında, sonlandığında ve yeni bir faks geldiğinde tetiklenerek belirlediğiniz adrese bu arama veya faks bilgilerini gönderen sistemdir.
 
 ## Kullanım
 
