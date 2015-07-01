@@ -2,7 +2,7 @@
 
 Web Kancaları, arama başladığında, sonlandığında ve yeni bir faks geldiğinde tetiklenir.
 
-# Kullanım
+## Kullanım
 
 Web Kancalarını kullanmak için, öncelikle kullanıcı panelinizde `Uygulamalar > Web Kancaları` menüsünden yeni bir web
 kancası tanımlamanız gerekmektedir.
@@ -14,7 +14,7 @@ web kancasını oluşturabiliriz.
 
 Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğiniz adrese POST edilecektir.
 
-# Gönderilen parametreler
+## Gönderilen parametreler
 
 * Arama Başlangıcı ve Gelen Faksta
     * **event_type:** Olay tipi (call_init = Arama Başlangıcı, call_hangup = Arama Bitişi, fax_init = Gelen Fax)
@@ -24,8 +24,8 @@ Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğini
     * **direction:** Arama yönü (Gelen arama (IN) veya Giden Arama(OUT))
     * **timestamp:** İşlemin gerçekleştiği zaman
 
-Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md#arama-kaydı-detayı-Örnek-sonuç){:target="_blank"} verileri gönderilir.
-# Örnek istekler
+Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/documents/blob/master/API/endpoints/cdr.md#arama-kaydı-detayı-Örnek-sonuç) verileri gönderilir.
+## Örnek istekler
 
 Arama Başlangıcı
 
