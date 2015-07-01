@@ -16,7 +16,7 @@ Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğini
 
 ## Eventlar
 
-WebHook ile tetiklenebilecek eventlar.
+WebHook ile tetiklenebilecek eventlar;
 
  * Arama Başlangıcı
  * Arama Bitişi
