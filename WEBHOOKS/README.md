@@ -55,7 +55,7 @@ Arama Bitişi
     "uuid": "f615986c-2001-11e5-bdee-6599352d46ce",
     "bf_calltype": "voice",
     "bf_direction": "IN",
-    "bf_caller": 905322041584,
+    "bf_caller": 90532000000,
     "bf_callee": 908508850000,
     "call_time": "2015-07-01T18:00:51+03:00",
     "answer_time": "2015-07-01T18:00:51+03:00",
