@@ -3,9 +3,9 @@
 Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointtir.
 
 ## URL'ler
-* `GET /messages.json` Gelen faksları listeler
-* `GET /messages/id.json` Id si verilen faksın detayını listeler.
-* `POST /messages.json` API üzerinden faks gönderimi sağlar
+* `GET /messages.json` Gönderilen mesajları  listeler
+* `GET /messages/id.json` Id si verilen mesajın detayını listeler.
+* `POST /messages.json` API üzerinden mesaj gönderimi sağlar
 
 ### Örnek Sonuç
 

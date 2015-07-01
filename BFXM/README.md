@@ -41,10 +41,6 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
 }
 ```
 
-## Örnek Uygulamalar
-
-* [https://github.com/netinternet/bfxm-whmcs](https://github.com/netinternet/bfxm-whmcs) - Arama gelince WHMCS'den müşteri bilgileri alınıp, hipchatten bildirimi çıkıyor.
-
 ## BFON Direktifleri
 
 ### play
@@ -95,9 +91,18 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 
 * [https://github.com/hakanersu/bfxm](https://github.com/hakanersu/bfxm) - Bfxm için BFON yaratan PHP composer paketi.
 
-## Açık Kaynak Projeler
+## Örnekler ve Açık Kaynak Projeler
+
+**Örnekler**
+
+* Numara Engelleme Örneği - Arayan numara eğer karalisteyse engelleyen bir BFXM projesidir. [Youtube videosunu](https://www.youtube.com/watch?v=4DeFu8JvG3o) izleyebilir ve [örnek kodları](https://github.com/bulutfon/documents/tree/master/BFXM/Examples/php-numara-engelleme) inceleyebilirsiniz.
+* Basılan tuşu txt dosyasına yazan ASP.NET uygulaması - https://github.com/bulutfon/documents/tree/master/BFXM/Examples/ASP.NET
+* Basılan tuşu txt dosyasına yazan PHP uygulaması - https://github.com/bulutfon/documents/tree/master/BFXM/Examples/Php
+
+**Açık Kaynak Projeler**
 
 * [netinternet/bfxm-whmcs](https://github.com/netinternet/bfxm-whmcs) - [Netinternet](netinternet.com.tr) firmasının geliştirdiği [Whmcs](www.whmcs.com), [Hipchat](www.hipchat), BFXM uygulaması. Arayan müşterinin son beş destek talebini hipchatte gösteriyor.
+* [bulutfon-apps/notifications-for-permit](https://github.com/bulutfon-apps/notifications-for-permit) - [Ahmet İlhan](https://github.com/ahmetilhann)'in geliştirdiği arayan kişilerden bildirim izinleri alarak izinli ve izinsiz listesi oluşturan bir proje.
 
 ## Eğitim Videoları
 
