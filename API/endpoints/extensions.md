@@ -93,16 +93,6 @@ Dahili oluştururken kullandığınız parametreleri kullanarak güncelleme yapa
 
 Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağıda verilmiştir.
 
-* State
-    * **DRAFT:** Taslak
-    * **IN-PROGRESS:** İşleme alındı
-    * **CONFIRMED:** Onaylandı
-    * **CANCELED:** Vazgeçildi
-    * **TERMINATED:** Kapatıldı
-    * **NTS-DRAFT:** NTS ile taşıma taslak
-    * **NTS-IN-PROGRESS:** NTS işleniyor
-    * **NTS-CANCEL:** NTS vazgeçildi
-
 * Destination Type
     * **Auto attendant:** Menü
     * **Group:** Grup
