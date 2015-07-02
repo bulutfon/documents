@@ -31,6 +31,7 @@
         "token_type": "bearer",
         "expires_in": 7200,
         "refresh_token": "551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c",
+        "scope": "cdr call_record",
         "created_at": 1429026419
     }
 ```
