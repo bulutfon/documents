@@ -34,7 +34,7 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
     {
       "action" : "set_caller_name",
       "args" : {
-       "caller_name" : "name"
+       "caller_name" : "ABC İnşaat Firması"
       }
     },
     {
