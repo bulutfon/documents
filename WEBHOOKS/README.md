@@ -94,4 +94,8 @@ Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/do
   }
 }
 ```
+## Örnekler ve Açık Kaynak Projeler
 
+**Örnekler**
+
+* Aramaları HipChatte odaya gönderen PHP uygulaması - https://github.com/bulutfon/documents/tree/master/WEBHOOKS/Examples/Php/Hipchat
