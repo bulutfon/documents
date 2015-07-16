@@ -32,6 +32,13 @@ BFXM, API'de kullanabileceğiniz JSON standartıdır. BFXM, BFON'daki [methodlar
 * [BFON Dökümanları](https://github.com/bulutfon/documents/tree/master/BFON)
 * [BFON Geliştirici Formu](http://devforums.bulutfon.com/c/bfon)
 
+## Webhooks
+
+Bulutfon'da gerçekleşen bazı eventleri HTTP POST yöntemiyle belirlediğiniz bir adrese form veya json şeklinde post eden servislerdir. 
+
+* [Webhook Dökümanları](https://github.com/bulutfon/documents/blob/master/WEBHOOKS/README.md)
+* [BFON Geliştirici Formu](http://devforums.bulutfon.com/c/webkancalari)
+
 # İş listesi
 
 ## BFXM
