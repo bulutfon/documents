@@ -44,7 +44,6 @@ Bulutfon'da gerçekleşen bazı eventleri HTTP POST yöntemiyle belirlediğiniz 
 ## BFXM
 
 * [x] Panele debug modun eklenmesi
-* [x] Menülerde BFXM desteği gelecek
 
 ## BFON
 
