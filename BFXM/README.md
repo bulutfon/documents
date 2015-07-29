@@ -63,10 +63,10 @@ Mp3 formatında, kullanıcı tarafında host edilen dosyayı çalar
 Cevaplanmış bir çağrıyı sonlandırır.
 
 ### dial
-Santraldeki bir numarya yönlendirir.
+Menüye, gruba, dahiliye veya harici bir numaraya yönlendirir.
 
 ##### Parametreleri
- - destination : menü, grup ya da dahili numarası
+ - destination : menü, grup, dahili numarası ya da harici bir numara
 
 ### gather
 Kullanıcıdan bir girdi tuşlatır. Gather methodu kullanıldığında, BFON dosyasının tamamı işlenince, sistem tekrar istek yapar ve istekte cevabın atandığı değişken de post edilir. Bu istekte step değişleni bir artırılarak gelir.
