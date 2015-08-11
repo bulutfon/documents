@@ -14,7 +14,7 @@ web kancasını oluşturabiliriz.
 
 Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğiniz adrese POST edilecektir.
 
-##Not: Değerlerin POST olarak elde edilmesi için web kancası oluşturulurken x-www-form-urlencoded seçeneğinin seçilmesi gereklidir.
+**Not**: Değerlerin POST olarak elde edilmesi için web kancası oluşturulurken x-www-form-urlencoded seçeneğinin seçilmesi gereklidir. Diğer durumda Bulutfon değerleri JSON formatında POST etmektedir.
 
 ## Eventlar
 
