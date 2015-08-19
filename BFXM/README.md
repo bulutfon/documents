@@ -109,7 +109,7 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 
 * [netinternet/bfxm-whmcs](https://github.com/netinternet/bfxm-whmcs) - [Netinternet](netinternet.com.tr) firmasının geliştirdiği [Whmcs](www.whmcs.com), [Hipchat](www.hipchat), BFXM uygulaması. Arayan müşterinin son beş destek talebini hipchatte gösteriyor.
 * [bulutfon-apps/notifications-for-permit](https://github.com/bulutfon-apps/notifications-for-permit) - [Ahmet İlhan](https://github.com/ahmetilhann)'in geliştirdiği arayan kişilerden bildirim izinleri alarak izinli ve izinsiz listesi oluşturan bir proje.
-* [ahmetilhann/bulutfon-bfxm-mesai-saatleri](https://github.com/ahmetilhann/bulutfon-bfxm-mesai-saatleri) - [Ahmet İlhan](https://github.com/ahmetilhann)'in geliştirdiği öğlen arasında, mesai saatlerinde ve mesai saatleri dışında farklı menülere aktaran ayrıca bazı günlerde özelleştirilebilen BFXM örneği.
+* [ahmetilhann/bulutfon-bfxm-mesai-saatleri](https://github.com/ahmetilhann/bulutfon-bfxm-mesai-saatleri) - [Ahmet İlhan](https://github.com/ahmetilhann)'in geliştirdiği öğlen arasında, mesai saatlerinde ve mesai saatleri dışında farklı menülere aktaran ayrıca bazı günlerde özelleştirilebilen BulutfonXM örneği. Ayrıca ilgili örneğin nasıl yapılığını anlatan  [blog yazısı](http://devblogs.bulutfon.com/bulutfonxm-ile-mesai-saatleri-uygulamasi-yapimi/) mevcuttur.
 
 ## Eğitim Videoları
 
