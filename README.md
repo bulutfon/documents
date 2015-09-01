@@ -7,7 +7,6 @@ Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin iht
 * [BFXM](https://github.com/bulutfon/documents/tree/master/BFXM#bfxm---bulutfon-external-manager) - Bulutfon External Management
 * [BFON](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation) - Bulutfon Object Notation
 * [WEBHOOKS](https://github.com/bulutfon/documents/tree/master/WEBHOOKS) - Web Kancaları
-* WEBSOCKETS - Web Socketler (Yapılması planlanıyor.)
 
 # Hızlı Bir Başlangıç
 
@@ -38,16 +37,6 @@ Bulutfon'da gerçekleşen bazı eventleri HTTP POST yöntemiyle belirlediğiniz 
 
 * [Webhook Dökümanları](https://github.com/bulutfon/documents/blob/master/WEBHOOKS/README.md)
 * [BFON Geliştirici Formu](http://devforums.bulutfon.com/c/webkancalari)
-
-# İş listesi
-
-## BFXM
-
-* [x] Panele debug modun eklenmesi
-
-## BFON
-
-* [x] TTS özelliği eklenecek
 
 # İletişim
 
