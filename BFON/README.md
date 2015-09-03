@@ -64,7 +64,7 @@ Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek
 
 **Notlar**
 
-* Bu özellik kelime başına bir ücrete tabii olacaktır. O yüzden bütün cümleyi değil değişken olan bölümü `say` yöntemiyle kullanmanı önerilir.
+* Bu özellik kelime başına bir ücrete tabii olacaktır. O yüzden bütün cümleyi değil değişken olan bölümü `say` yöntemiyle kullanmanız önerilir.
 
 ### hangup
 
