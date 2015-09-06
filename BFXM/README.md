@@ -95,7 +95,7 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 
 ### Continue
 
-İlk istekten sonra işlemlerin devam etmesini sağlayan yapıdır.
+İlk istekten sonra gelen isteklerin devam etmesini sağlayan yapıdır.
  
 ## Kütüphaneler & SDK'lar
 
