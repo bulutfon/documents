@@ -92,6 +92,10 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 
 ##### Parametreleri
   - caller_name : String olarak arayan bilgisi
+
+### Continue
+
+İlk istekten sonra gelen isteklerin devam etmesini sağlayan yapıdır.
  
 ## Kütüphaneler & SDK'lar
 
