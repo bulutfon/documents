@@ -11,6 +11,7 @@ BFON, Bulutfon tarafından belirlenen bir [JSON](http://www.json.org/) standart�
 * [say](#say) (yakında eklenecek)
 * [hangup](#hangup)
 * [reject](#reject)
+* [set_caller](#set_caller)
 
 
 
@@ -74,6 +75,14 @@ Arama anında arayana telefonu kapatır.
 
 Gelen aramayı hiç açmadan kapatır. Hangup ile arasında temel fark `hangup` görüşme anında kapatırken, `reject` gelen çağrıyı hiç açmadan, çalma aşamasında kapatır.
 
+### set_caller
+
+Santral kullanıcılarına aktarılan çağrılar için özel arayan bilgisi tanımlanmasını sağlar.
+
+**args**
+
+caller_name : String formatında arayan bilgisi
+
 ## Örnek
 
 ```json
@@ -117,7 +126,14 @@ Gelen aramayı hiç açmadan kapatır. Hangup ile arasında temel fark `hangup` 
         },
         {
             "action": "continue"
+        },
+        {
+            "action": "set_caller_name",
+            "args": {
+                "caller_name": "ABC İnşaat Firması"
+            }
         }
+           
     ]
  }
 ```
