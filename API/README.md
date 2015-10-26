@@ -1,6 +1,6 @@
 # Bulutfon API Dökümantasyonu
 
-**Rest** mimarisinde tasarlanmış Bulutfon API'si, serilizasyon için **JSON**, doğrulama için **OAuth 2** kullanır.
+**REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **OAuth 2** kullanır.
 
 ## Kimlik Doğrulama ve Yetkilendirme
 
