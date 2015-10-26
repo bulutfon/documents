@@ -71,6 +71,12 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 * **[Message Titles](https://github.com/bulutfon/documents/blob/master/API/endpoints/message-titles.md)** - Mesaj Başlıkları
 * **[Messages](https://github.com/bulutfon/documents/blob/master/API/endpoints/messages.md)** - Mesajlar
 
+## Master Token Kullanarak istek yapmak
+
+İsteklerinizi OAUTH 2 protokolü yerine direk master token kullanarak yapmak isterseniz, Panelden Uygulamalar > API Uygulamaları altında yer alan `Tekil Api Anahtarınızı` istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
+
+    https://api.bulutfon.com/cdrs?access_token={{master_token}} // Şeklinde
+
 ## Masaüstü Uygulamada Token Almak
 
 Masaüstü uygulamanızda token almak hali hazırda bir webserver olmadığı için sorun yaratmaktadır. Bunu çözmek için:
