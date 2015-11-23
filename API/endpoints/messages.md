@@ -10,6 +10,8 @@ Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointti
 ### Örnek Sonuç
 
 */messages?access_token=xxx*
+*/messages?access_token=xxx&page=2*
+*/messages?access_token=xxx&limit=200&page=2*
 
 ```json
      {
@@ -28,8 +30,12 @@ Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointti
            "created_at": "2015-06-18T17:51:36.229+03:00",
            "sent_as_single_sms": false
          }
-       ]
-     }
+       ],
+       "paginate": {
+            "total_pages": 12,
+            "previous_page": null,
+            "next_page": "/messages?access_token=xxx&limit=20&page=2"
+        }
 ```
 
 ### Detay Örnek Sonuç
