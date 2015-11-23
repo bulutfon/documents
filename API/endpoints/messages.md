@@ -20,6 +20,7 @@ Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointti
            "id": 2,
            "title": "TEST",
            "content": "Test Message",
+           "recipients": "905xxxxxxxxx"
            "created_at": "2015-06-18T17:59:19.060+03:00",
            "sent_as_single_sms": true
          },
@@ -27,6 +28,7 @@ Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointti
            "id": 1,
            "title": "TEST",
            "content": "Test Message2",
+           "recipients": "905xxxxxxxxx,905xxxxxxxxx"
            "created_at": "2015-06-18T17:51:36.229+03:00",
            "sent_as_single_sms": false
          }
@@ -34,7 +36,7 @@ Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointti
        "paginate": {
             "total_pages": 12,
             "previous_page": null,
-            "next_page": "/messages?access_token=xxx&limit=20&page=2"
+            "next_page": "/messages?access_token=xxx&limit=2&page=2"
         }
 ```
 
