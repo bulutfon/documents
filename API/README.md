@@ -2,6 +2,8 @@
 
 **REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **OAuth 2** kullanır.
 
+Endpointleri canlı ortamda deneyebileceğiniz [Bulutfon Api Dokümanını](http://api.bulutfon.com/docs) inceleyebilirsiniz.
+
 ## Kimlik Doğrulama ve Yetkilendirme
 
 ### Uygulama oluşturma
