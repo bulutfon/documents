@@ -1,6 +1,6 @@
 # MESSAGE TITLES
 
-Panelden tanımladığınız mesaj başlıklarınızı listeleyebileceğiniz endpointtir.
+MESSAGE TITLE, SMS başlığını ifade etmektedir. SMS Başlıkları panelden bir dilekçe ile başvurulur. Başlılar Onay Bekleniyor (DRAFT), Onaylı (CONFIRMED), Red edildi (REJECTED) şeklindedir. **Sadece onaylı SMS başlığıyla SMS gönderebilirsiniz.** . 
 
 ## URL'ler
 * `GET /message-titles.json?access_token=xxx*`
