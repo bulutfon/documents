@@ -4,7 +4,7 @@ Kullanıcının ses dosyalarının listelenip indirilebildiği endpointtir.
 
 ## URL'ler
 * `GET /announcements.json` Ses dosyalarını listeler
-* `GET /announcements/uuid.json` Id si ses dosyasını .wav formatında stream eder.
+* `GET /announcements/id.json` Id si ses dosyasını .wav formatında stream eder.
 
 ### Örnek Sonuç
 
