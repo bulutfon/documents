@@ -116,11 +116,11 @@ Otomatik arama başlatmak için apiye zorunlu olarak gönderilmesi gereken param
 * **announcement_id:** Aranınca çalınacak ses dosyasının id'si
 
 Bunların yanısıra gönderilebilecek opsiyonel parametler de,
-
 * **gather:** Kullanıcının bastığı tuşun kayıt edilip edilmeyeceğini belirtir. Varsayılan olarak `true` dur
 * **{gün}_active:** O gün arama yapılıp yapılamayacağını belirtir. Varsayılan olarak `true` dur. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_active)
 * **{gün}_start:** O gün arama yapılabilecek aralığın başlama saatidir. Varsayılan olarak `09:00` dur. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_start)
-* **{gün}_finish:** O gün arama yapılabilecek aralığın başlama saatidir. Varsayılan olarak `18:00` dir. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_finish)
+* **{gün}_finish:** O gün arama yapılabilecek aralığın bitiş saatidir. Varsayılan olarak `18:00` dir. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_finish)
+* **hours_active:** Arama yapılacak günler {gün}_start ve {gün}_finish parametrelerine dikkat edilmesi gerektiğini belirtir. Varsayılan olarak `false` dur
 
 değişkenlerini string olarak **/automatic-calls?access_token=xxx** adresine http post ile gönderilmesi gerekmektedir.
 
