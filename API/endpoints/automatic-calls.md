@@ -118,7 +118,7 @@ Otomatik arama başlatmak için apiye zorunlu olarak gönderilmesi gereken param
 Bunların yanısıra gönderilebilecek opsiyonel parametler de,
 
 * **gather:** Kullanıcının bastığı tuşun kayıt edilip edilmeyeceğini belirtir. Varsayılan olarak `true` dur
-* **{gün}_active:** O gün aramaya pılıp yapılamayacağını belirtir. Varsayılan olarak `true` dur. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_active)
+* **{gün}_active:** O gün arama yapılıp yapılamayacağını belirtir. Varsayılan olarak `true` dur. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_active)
 * **{gün}_start:** O gün arama yapılabilecek aralığın başlama saatidir. Varsayılan olarak `09:00` dur. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_start)
 * **{gün}_finish:** O gün arama yapılabilecek aralığın başlama saatidir. Varsayılan olarak `18:00` dir. `{gün}` yerine gelebilecek değerler mon,tue, wed, thu, fri, sat, sun. (ör: fri_finish)
 
