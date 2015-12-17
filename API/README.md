@@ -102,11 +102,13 @@ Sadece JSON formatını destekliyoruz.
 ## Kütüphaneler & SDK'lar
 
 * [php-sdk](https://github.com/bulutfon/php-sdk) - Composer paketi
+* [ruby-sdk](https://github.com/bulutfon/ruby-sdk) - Ruby Gem
 * [.Net-SDK](https://github.com/bulutfon/dotNet-SDK) - .NET-SDK için Nuget Paketi
 
 ## Açık Kaynak Projeler
 
-* [Projekod/BulutfonCart-Lite](https://github.com/Projekod/BulutfonCart-Lite) - [Projekod](http://projekod.com/) firmasının yaptığı [Opencart](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=21996) eklentisi. 
+* [Projekod/BulutfonCart](https://github.com/Projekod/Bulutfon-Opencart-Eklentisi) - [Projekod](http://projekod.com/) firmasının yaptığı Bulutfon Opencart eklentisidir. 
+* [Projekod/BulutfonCart-Lite](https://github.com/Projekod/BulutfonCart-Lite) - [Projekod](http://projekod.com/) firmasının yaptığı [Opencart](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=21996) eklentisi. **ESKİ SÜRÜM**
 * [hakanersu/bulutfon-whmcs](https://github.com/hakanersu/bulutfon-whmcs) - [Hakan Ersu](https://github.com/hakanersu)  tarafından geliştirdiği [Whmcs](http://whmcs.com/) eklentisi.
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
