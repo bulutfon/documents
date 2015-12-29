@@ -112,6 +112,10 @@ Sadece JSON formatını destekliyoruz.
 * [Projekod/BulutfonCart-Lite](https://github.com/Projekod/BulutfonCart-Lite) - [Projekod](http://projekod.com/) firmasının yaptığı [Opencart](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=21996) eklentisi. **ESKİ SÜRÜM**
 * [hakanersu/bulutfon-whmcs](https://github.com/hakanersu/bulutfon-whmcs) - [Hakan Ersu](https://github.com/hakanersu)  tarafından geliştirdiği [Whmcs](http://whmcs.com/) eklentisi.
 
+## Nasıl Yapılır Kılavuzları
+
+* [PHP, CURL kullanarak Bulutfon'la SMS Gönderilmesi Örneği](https://gist.github.com/hsyntnc/f6e345a32b16aa6d251b), Hüseyin Tunç
+
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 
 Lütfen bizlere daha iyi bir API'yi nasıl yapacağımızı söyleyin, geri bildirimde bulunun. Eğer API'de bir özelliğe ihtiyacınız varsa veya bir hata bulduysanız, lütfen [geliştirici formuna](http://devforums.bulutfon.com/c/api) konu açın. 
