@@ -96,6 +96,20 @@ Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/do
   }
 }
 ```
+
+### Gelen Faks
+
+```json
+{
+  "event_type": "fax_init",
+  "caller": 905326200000,
+  "callee": 908508850000,
+  "uuid": "kkk919b-aaaa-aaaa-bbbb-ccccccfd40ee",
+  "direction": "IN",
+  "timestamp": 1450458620079404
+}
+```
+
 ## Örnekler ve Açık Kaynak Projeler
 
 **Örnekler**
