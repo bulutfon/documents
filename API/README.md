@@ -114,7 +114,8 @@ Sadece JSON formatını destekliyoruz.
 
 ## Nasıl Yapılır Kılavuzları
 
-* [PHP, CURL kullanarak Bulutfon'la SMS Gönderilmesi Örneği](https://gist.github.com/hsyntnc/f6e345a32b16aa6d251b), Hüseyin Tunç
+* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](http://akademi.help/php-curl-kullanilarak-bulutfonla-sms-gonderme-uygulamasi/), Hüseyin Tunç
+* [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](http://akademi.help/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek/), Hüseyin Tunç
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 
