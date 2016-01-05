@@ -116,7 +116,7 @@ Sadece JSON formatını destekliyoruz.
 
 * [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](http://akademi.help/php-curl-kullanilarak-bulutfonla-sms-gonderme-uygulamasi/), Hüseyin Tunç
 * [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](http://akademi.help/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek/), Hüseyin Tunç
-* [Curl, Php, Bulutfon API'yi kullanarak gelen faksların listelenmesi](http://akademi.help/curl-php-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi/), Hüseyin Tunç
+* [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](http://akademi.help/curl-php-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi/), Hüseyin Tunç
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 
