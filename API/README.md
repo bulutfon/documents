@@ -119,6 +119,7 @@ Sadece JSON formatını destekliyoruz.
 * [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi/)
 * [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-fax-gonderme-islemi/)
 * [Php, Curl, Bulutfon API'yi kullanarak gönderilen faxların listelenmesi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-gonderilen-faxlar/)
+* [PHP, Curl, Bulutfon Apiyi Kullanarak Arama Kayıtlarının Çekilmesi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-arama-kayitlarinin-cekilmesi/)
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 
