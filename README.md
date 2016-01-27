@@ -3,12 +3,15 @@
 Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin ihtiyaç duyduğu bütün dökümanlar bu repodadır.
 
 # İçindekiler
+
 * [API](https://github.com/bulutfon/documents/blob/master/API/README.md) - OAuth2, RestFull standartında, JSON destekleyen Bulutfon API'si
 * [BFXM](https://github.com/bulutfon/documents/tree/master/BFXM#bfxm---bulutfon-external-manager) - Bulutfon External Management
 * [BFON](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation) - Bulutfon Object Notation
 * [WEBHOOKS](https://github.com/bulutfon/documents/tree/master/WEBHOOKS) - Web Kancaları
 
 # Hızlı Bir Başlangıç
+
+Bulutfon'un geliştirme ekosistemini tartıştığımız [Bulutfon Entegrasyon Çözümleri Hangout Youtube Videosunu](https://www.youtube.com/watch?v=0LdsBc69pmA) hızlı başlangıç için izlemenizi öneririz. 
 
 ## Bulutfon API
 
