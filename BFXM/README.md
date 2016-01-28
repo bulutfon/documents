@@ -119,6 +119,7 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 ## Eğitim Videoları
 
 * [BFXM ile Numara Engelleme Örneği](https://www.youtube.com/watch?v=4DeFu8JvG3o&feature=youtu.be)
+* * [Ngrok'un kurulumu ve kullanımı](https://www.youtube.com/watch?v=bnIs7q_-Olc) : Videoda her ne kadar webkancaları anlatılsa da, Ngrok aracı BulutfonXM'in kullanımında da çok faydalıdır.
 
 ## Daha iyisi yapmamız için geri bildirimde bulunun!
 
