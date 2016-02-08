@@ -4,6 +4,8 @@ Bulutfon ile gönderilen otomatik aramaların listelendiği, ve yeni otomatik ar
 
 ## URL'ler
 
+[Tam Liste](http://api.bulutfon.com/docs#!/Automatic_Call)
+
 * `GET /automatic-calls.json` Otomatik aramaları listeler
 * `GET /automatic-calls/id.json` Id si Otomatik aramaları.
 * `POST /automatic-calls.json` API üzerinden otomatik arama gönderimi sağlar
