@@ -4,6 +4,8 @@ Bulutfon ile gönderilen faksların listelendiği endpointtir.
 
 ## URL'ler
 
+[Tam Liste](http://api.bulutfon.com/docs#!/Outgoing_Fax)
+
 * `GET /outgoing-faxes.json` Gelen faksları listeler
 * `GET /outgoing-faxes/id.json` Id si verilen faksın detayını listeler.
 * `POST /outgoing-faxes.json` API üzerinden faks gönderimi sağlar
