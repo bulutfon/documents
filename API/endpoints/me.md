@@ -43,8 +43,11 @@ Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağı
 
 * Package
     * **SMALL:** Giriş Paketi
-    * **MIDDLE:** Orta Paket
-    * **LARGE:** Büyük Paket
+    * **MIDDLE:** Kobi Paketi
+    * **COMMERCIAL:** Ticari Paket
+    * **ENTERPRISE:** Kurumsal Paket
+    * **APSIYON SITE:** Apsiyon Site Paketi
+    * **APSIYON PRO:** Apsiyon Pro Paketi
 
 * Customer Type
     * **INVIDUAL:** Bireysel Müşteri
