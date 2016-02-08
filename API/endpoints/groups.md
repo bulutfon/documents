@@ -3,6 +3,9 @@
 Gruplarınız hakkında bilgi alabileceğiniz adrestir.
 
 ## URL'ler
+
+[Tam liste](http://api.bulutfon.com/docs#!/Group)
+
 * `GET /groups.json` Santrale bağlı numaraları gösterir
 * `GET /groups/:id.json` Numaraya ait detayları ve varsa mesai saatlerini gösterir
 
