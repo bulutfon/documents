@@ -3,6 +3,9 @@
 Dahilileriniz hakkında bilgi alabileceğiniz adrestir.
 
 ## URL'ler
+
+[Tam liste](http://api.bulutfon.com/docs#!/Extension)
+
 * `GET /extensions.json` Santrale bağlı numaraları gösterir
 * `GET /extensions/:id.json` Numaraya ait detayları ve varsa mesai saatlerini gösterir
 * `POST /extensions.json` Gönderilen parametreler ile yeni dahili oluşturur.
