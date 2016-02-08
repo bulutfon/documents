@@ -3,6 +3,9 @@
 Santralinizde kullandığınız telefon numaraları hakkında bilgi alabileceğiniz adrestir.
 
 ## URL'ler
+
+[Tam liste](http://api.bulutfon.com/docs#!/Did)
+
 * `GET /dids.json` Santrale bağlı numaraları gösterir
 * `GET /dids/:id.json` Numaraya ait detayları ve varsa mesai saatlerini gösterir
 
