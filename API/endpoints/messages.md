@@ -3,6 +3,9 @@
 Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointtir.
 
 ## URL'ler
+
+[Tam Liste](http://api.bulutfon.com/docs#!/Message)
+
 * `GET /messages.json` Gönderilen mesajları  listeler
 * `GET /messages/id.json` Id si verilen mesajın detayını listeler.
 * `POST /messages.json` API üzerinden mesaj gönderimi sağlar
