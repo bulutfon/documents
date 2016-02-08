@@ -7,7 +7,7 @@ Kullanıcının ses dosyalarının listelenip indirilebildiği endpointtir.
 [Tam Liste](http://api.bulutfon.com/docs#!/Announcements)
 
 * `GET /announcements.json` Ses dosyalarını listeler
-* `POST /announcements` Ses dosyası oluşturur
+* `POST /announcements.json` Ses dosyası oluşturur
 * `DELETE /announcements/id` Ses dosyası siler
 * `GET /announcements/id.json` Id si ses dosyasını .wav formatında indirilmesini sağlar
 * `GET /call-records/uuid.json/stream` Ses dosyasını stream eder.
