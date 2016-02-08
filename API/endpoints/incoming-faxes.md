@@ -4,7 +4,8 @@ Kullanıcıya gelen faksların listelenip indirilebildiği endpointtir.
 
 ## URL'ler
 * `GET /incoming-faxes.json` Gelen faksları listeler
-* `GET /incoming-faxes/uuid.json` Id si verilen faksı .tiff formatında stream eder.
+* `GET /incoming-faxes/uuid` Id si verilen faksı .tiff formatında indirir.
+* `GET /incoming-faxes/uuid/stream` Id si verilen faksı .tiff formatında stream eder.
 
 ### Örnek Sonuç
 
