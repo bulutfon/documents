@@ -22,7 +22,8 @@ Kullanıcınız ve santraliniz hakkındaki bilgilere erişmek için kullanacağ�
             "customer_type": "CORPORATE"
         },
         "credit": {
-            "balance": "300.06"
+            "balance": "300.06",
+            "sms_credits": 0
         }
     }
 ```
@@ -65,3 +66,4 @@ Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağı
 
 * **Credit:**
     * **balance:** Kalan kontör miktarı
+    * **sms_credit:** Kalan sms kredisi
