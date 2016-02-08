@@ -3,6 +3,9 @@
 MESSAGE TITLES, SMS başlığını ifade etmektedir. SMS Başlıkları panelden bir dilekçe ile başvurulur. Başlılar Onay Bekleniyor (DRAFT), Onaylı (CONFIRMED), Red edildi (REJECTED) şeklindedir. **Sadece onaylı SMS başlığıyla SMS gönderebilirsiniz.** .
 
 ## URL'ler
+
+[Liste](http://api.bulutfon.com/docs#!/Message_Title)
+
 * `GET /message-titles.json?access_token=xxx*`
 
 ### Örnek Sonuç
