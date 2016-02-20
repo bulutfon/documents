@@ -10,7 +10,7 @@ POST isteğinde BFXM şu parametreleri gönderir.
  - "callee" : Çağrıyı alan numara
  - "step" : İterasyon işlemlerinde adım sayısı
 
-BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir.
+BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir. Response ile birlikte döndürülen **BFON**'un (json) bütün parametreleri tam ve eksiksiz olarak doldurulmalıdır.
 
 ```json
 {
