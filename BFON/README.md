@@ -2,6 +2,8 @@
 
 BFON, Bulutfon tarafından belirlenen bir [JSON](http://www.json.org/) standartıdır. BFON ile geliştiriciler Bulutfon'a görüşme anında telefonu kapatma, belli bir ses dosyasını okuma, basılan tuşları algılama gibi işlemleri yaptırtabilirler.
 
+Response ile birlikte döndürülen **BFON**'un (json) bütün parametreleri tam ve eksiksiz olarak doldurulmalıdır.
+
 ## Methodlar
 
 * [play](#play)
@@ -12,8 +14,6 @@ BFON, Bulutfon tarafından belirlenen bir [JSON](http://www.json.org/) standart�
 * [hangup](#hangup)
 * [reject](#reject)
 * [set_caller](#set_caller)
-
-
 
 ### play
 
