@@ -12,13 +12,13 @@ Bulutfon'da API'ye üç tip login olma yöntemi vardır.
 2. Sistemden alacağınız tekil bir anahtar ile
 3. OAuth2 standartlarına göre oluşturacağınız uygulama ile
 
-## Kullanıcı adı (email) ve şifre ile istek yapma
+### Kullanıcı adı (email) ve şifre ile istek yapma
 
 İsteklerinizi OAUTH 2 protokolü veya master token kullanmak yerine giriş bilgilerinizi kullanarak yapmak isterseniz, Email adresinizi ve şifrenizi istek sırasında `email` ve `password` parametrelerii ile göndererek apiye doğrudan erişebilirsiniz.
 
     https://api.bulutfon.com/cdrs?email={{email}}&password={{password}} // ŞeklindeErişim
 
-## Master Token Kullanarak istek yapmak
+### Master Token Kullanarak istek yapmak
 
 İsteklerinizi OAUTH 2 protokolü yerine direk master token kullanarak yapmak isterseniz, Panelden Uygulamalar > API Uygulamaları altında yer alan `Tekil Api Anahtarınızı` istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
 
