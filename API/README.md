@@ -6,6 +6,24 @@ Endpointleri canlı ortamda deneyebileceğiniz [Bulutfon Api Dokümanını](http
 
 ## Kimlik Doğrulama ve Yetkilendirme
 
+Bulutfon'da API'ye üç tip login olma yöntemi vardır.
+
+1. Kullanıcı adı (yani epostanız) ve şifreniz ile
+2. Sistemden alacağınız tekil bir anahtar ile
+3. OAuth2 standartlarına göre oluşturacağınız uygulama ile
+
+## Kullanıcı adı (email) ve şifre ile istek yapma
+
+İsteklerinizi OAUTH 2 protokolü veya master token kullanmak yerine giriş bilgilerinizi kullanarak yapmak isterseniz, Email adresinizi ve şifrenizi istek sırasında `email` ve `password` parametrelerii ile göndererek apiye doğrudan erişebilirsiniz.
+
+    https://api.bulutfon.com/cdrs?email={{email}}&password={{password}} // ŞeklindeErişim
+
+## Master Token Kullanarak istek yapmak
+
+İsteklerinizi OAUTH 2 protokolü yerine direk master token kullanarak yapmak isterseniz, Panelden Uygulamalar > API Uygulamaları altında yer alan `Tekil Api Anahtarınızı` istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
+
+    https://api.bulutfon.com/cdrs?access_token={{master_token}} // Şeklinde
+
 ### Uygulama oluşturma
 
 **[https://bulutfon.com](https://bulutfon.com)** adresindeki kullanıcı bilgileriniz ile panelinize giriş yaptıktan sonra. **Uygulamalar** menüsünün altında **API Uygulamaları > Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girip uygulamanızı oluşturun.
@@ -72,18 +90,6 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 * **[Automatic Calls](https://github.com/bulutfon/documents/blob/master/API/endpoints/automatic-calls.md)** - Otomatik Aramalar
 * **[Message Titles](https://github.com/bulutfon/documents/blob/master/API/endpoints/message-titles.md)** - Mesaj Başlıkları
 * **[Messages](https://github.com/bulutfon/documents/blob/master/API/endpoints/messages.md)** - Mesajlar
-
-## Master Token Kullanarak istek yapmak
-
-İsteklerinizi OAUTH 2 protokolü yerine direk master token kullanarak yapmak isterseniz, Panelden Uygulamalar > API Uygulamaları altında yer alan `Tekil Api Anahtarınızı` istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
-
-    https://api.bulutfon.com/cdrs?access_token={{master_token}} // Şeklinde
-
-## Email ve şifre ile istek yapma
-
-İsteklerinizi OAUTH 2 protokolü veya master token kullanmak yerine giriş bilgilerinizi kullanarak yapmak isterseniz, Email adresinizi ve şifrenizi istek sırasında `email` ve `password` parametrelerii ile göndererek apiye doğrudan erişebilirsiniz.
-
-    https://api.bulutfon.com/cdrs?email={{email}}&password={{password}} // ŞeklindeErişim
 
 ## Masaüstü Uygulamada Token Almak
 
