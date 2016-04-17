@@ -25,6 +25,12 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir. 
       }
     },
     {
+      "action" : "return_data",
+      "args" : {
+        "value" : "TestData1"
+      }
+    },
+    {
       "action" : "say",
       "args" : {
         "lang" : "tr",
@@ -54,7 +60,6 @@ Mp3 formatında, kullanıcı tarafında host edilen dosyayı çalar
 
 ##### Parametreleri
  - url : Çalılnacak dosyanın urli
-
 
 ### reject
 Çağrıyı reddeder.
@@ -92,6 +97,10 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 
 ##### Parametreleri
   - caller_name : String olarak arayan bilgisi
+
+### return_data
+
+Bu method ile bir sonraki istekte bize geri dönülmesini istediğimiz datayı belirleyebiliriz. Bu method ile birden fazla adım içeren çağrı planlarında, oturum mantığı tanımlanabilir. 
 
 ### Continue
 
