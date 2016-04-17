@@ -14,6 +14,7 @@ Response ile birlikte döndürülen **BFON**'un (json) bütün parametreleri tam
 * [hangup](#hangup)
 * [reject](#reject)
 * [set_caller](#set_caller)
+* [return_data](#return_data)
 
 ### play
 
@@ -82,6 +83,14 @@ Santral kullanıcılarına aktarılan çağrılar için özel arayan bilgisi tan
 **args**
 
 caller_name : String formatında arayan bilgisi
+
+### return_data
+
+Bu method ile bir sonraki istekte bize geri dönülmesini istediğimiz datayı belirleyebiliriz. Bu method ile birden fazla adım içeren çağrı planlarında, oturum mantığı tanımlanabilir.
+
+**args**
+
+value : String formatında bir değerdir. Eğer array veya kullanılmak istenirse ilgili kullanılacak dilin decode ve encode methodlarına bakılabilir.
 
 ## Örnek
 
