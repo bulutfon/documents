@@ -1,4 +1,4 @@
-# Bulutfon Geliştirici Dökümanları
+# Bulutfon Geliştirici Dokümanları
 
 Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin ihtiyaç duyduğu bütün dökümanlar bu repodadır.
 
@@ -17,7 +17,7 @@ Bulutfon'un geliştirme ekosistemini tartıştığımız [Bulutfon Entegrasyon �
 
 Bulutfon, API'si OAuth2 ve Restfull standartlara göre yapılmış sadece JSON tipini desteklemektedir. Bulutfon API'si ile santral numaraları, dahililer, gruplar, arama kayıtları, faks gibi Bulutfon panelindeki işlemleri yapabilir ve yönetebilirsiniz.
 
-* [API Dökümanları](https://github.com/bulutfon/documents/blob/master/API/README.md)
+* [API Dokümanları](https://github.com/bulutfon/documents/blob/master/API/README.md)
 * [API Geliştirici Formu](http://devforums.bulutfon.com/c/api)
 
 ## BFXM - BulutFon External Management
