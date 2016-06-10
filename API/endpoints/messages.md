@@ -83,6 +83,8 @@ Opsiyonel parametreler
 
 değişkenlerinin string olarak **/messages?access_token=xxx** adresine http post ile gönderilmesi gerekmektedir.
 
+**NOT:** 1 saat içerisinde bir numaraya gönderilecek aynı içerikli maksimum sms sayısı 6, farklı içerikli maksimum sms sayısı ise 20'dir. Bu sayıları aştıktan sonraki gönderdiğiniz smsler **spam** olarak algılanıp iletilmeyecektir. Spam filtresine takıldığınız zaman, gönderim yapmaya çalıştığınız numaraya sms atmanız 1 saat süresince engellenecektir.
+
 #### Sabitler
 
 Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağıda verilmiştir.
