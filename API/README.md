@@ -74,7 +74,7 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
     * redirect_uri = Yönlendirme url'iniz
     * grant_type = refresh_token
 
-    parametreleri ile **[https://bulutfon.com/oauth/token](https://bulutfon.com/oauth/token)** adresine **POST** edin.
+    parametreleri ile **[https://app.bulutfon.com/oauth/token](https://app.bulutfon.com/oauth/token)** adresine **POST** edin.
 
 ## EndPoint'ler
 
