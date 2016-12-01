@@ -26,7 +26,7 @@ Bulutfon'da API'ye üç tip login olma yöntemi vardır.
 
 ### Uygulama oluşturma
 
-**[https://bulutfon.com](https://bulutfon.com)** adresindeki kullanıcı bilgileriniz ile panelinize giriş yaptıktan sonra. **Uygulamalar** menüsünün altında **API Uygulamaları > Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girip uygulamanızı oluşturun.
+**[https://app.bulutfon.com](https://app.bulutfon.com)** adresindeki kullanıcı bilgileriniz ile panelinize giriş yaptıktan sonra. **Uygulamalar** menüsünün altında **API Uygulamaları > Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girip uygulamanızı oluşturun.
 
 * Uygulamada vereceğiniz yönlendirme adresi 'https' olmalıdır. Development ortamında test edebilmek için **[ngrok](https://ngrok.com/)** kullanabilirsiniz.
 
@@ -42,7 +42,7 @@ Bulutfon'da API'ye üç tip login olma yöntemi vardır.
     * redirect_uri = Yönlendirme url'iniz
     * grant_type = authorization_code
 
-    parametreleri ile **[https://bulutfon.com/oauth/token](https://bulutfon.com/oauth/token)** adresine **POST** edin.
+    parametreleri ile **[https://app.bulutfon.com/oauth/token](https://bulutfon.com/oauth/token)** adresine **POST** edin.
 * Sonuç olarak size aşağıdaki gibi bir access token dönecektir.
 
 ```json
