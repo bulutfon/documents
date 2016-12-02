@@ -14,7 +14,7 @@
 </head>
 <body>
 	<h1>BFXM Demo Uygulaması</h1>
-	<p>Bulutfon demo uygulamasına hoşgeldiniz. Test için 0850 885 0 223 numaralı telefonu arayabilirsiniz. </p>
+	<p>Bulutfon demo uygulamasına hoşgeldiniz. </p>
 	<p>Uygulamanın kaynak kodunu <a href="https://github.com/bulutfon/documents/tree/master/BFXM" target="_blank">Github</a> üzerinden görebilirsiniz.</p>
 	<p>Her türlü sorunuzu <a href="http://devforums.bulutfon.com/c/bfxm" target="_blank">Bulutfon Geliştirici formunda</a> sorabilirsiniz</p>
 
