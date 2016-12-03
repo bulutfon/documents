@@ -118,7 +118,7 @@ Otomatik arama başlatmak için apiye zorunlu olarak gönderilmesi gereken param
 * **announcement_id:** Aranınca çalınacak ses dosyasının id'si
 * **sound_url:** Aranınca çalınacak ses dosyasının url'i
 * **bulutfon_xm_id:** Aranınca aktarılacak BulutfonXM id'si
-* **NOT:** announcement_id, sound_url ve custom_pbx_id den sadece biri gönderilmelidir. 
+* **NOT:** announcement_id, sound_url ve bulutfon_xm_id den sadece biri gönderilmelidir. 
 
 Bunların yanısıra gönderilebilecek opsiyonel parametler de,
 * **gather:** Kullanıcının bastığı tuşun kayıt edilip edilmeyeceğini belirtir. Varsayılan olarak `true` dur
