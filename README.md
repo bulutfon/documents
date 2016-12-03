@@ -24,21 +24,21 @@ Bulutfon, API'si OAuth2 ve Restfull standartlara göre yapılmış sadece JSON t
 
 BFXM, çağrı anında sizlerin belirlediği bir url adresine istek yapar. İsteğin cevabına göre şekilde görüşmeyi yönetir. Örneğin şu ses dosyasını okuyun, bastığı tuşu algılayın, şu dahiliye yönlendirin gibi işlemleri BFXM ile görüşme anında yapabilirsiniz.
 
-* [BFXM Dökümanları](https://github.com/bulutfon/documents/tree/master/BFXM)
+* [BFXM Dokümanları](https://github.com/bulutfon/documents/tree/master/BFXM)
 * [BFXM Geliştirici Formu](http://devforums.bulutfon.com/c/bfxm)
 
 ## BFON - Bulutfon Object Notation
 
 BFXM, API'de kullanabileceğiniz JSON standartıdır. BFXM, BFON'daki [methodları](https://github.com/bulutfon/documents/tree/master/BFON#methodlar) destekler.
 
-* [BFON Dökümanları](https://github.com/bulutfon/documents/tree/master/BFON)
+* [BFON Dokümanları](https://github.com/bulutfon/documents/tree/master/BFON)
 * [BFON Geliştirici Formu](http://devforums.bulutfon.com/c/bfon)
 
 ## Webhooks
 
 Bulutfon'da gerçekleşen bazı eventleri HTTP POST yöntemiyle belirlediğiniz bir adrese form veya json şeklinde post eden servislerdir. 
 
-* [Webhook Dökümanları](https://github.com/bulutfon/documents/blob/master/WEBHOOKS/README.md)
+* [Webhook Dokümanları](https://github.com/bulutfon/documents/blob/master/WEBHOOKS/README.md)
 * [BFON Geliştirici Formu](http://devforums.bulutfon.com/c/webkancalari)
 
 # İletişim
