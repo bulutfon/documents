@@ -1,4 +1,4 @@
-# Bulutfon API Dökümantasyonu
+# Bulutfon API Dokümantasyonu
 
 **REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **username** **password**, **token** veya **OAuth 2** kullanılabilir.
 
