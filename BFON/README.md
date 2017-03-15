@@ -33,9 +33,12 @@ Belli bir adresteki ses dosyasını arayana çalar. Sonra arayanın bastığı t
 * min_digits: "2",
 * max_digits: "5",
 * max_attempts: "3",
+* timeout: 5000
 * ask: "http://192.168.1.1:8000/test.mp3",
 * play_on_error: "http://192.168.1.1:8000/test.mp3",
 * variable_name: "testvar"
+
+Timeout parametresi opsiyonel olup, kullanıcının tuşa bastıktan sonra, diğer tuşlamayı ne kadar bekleyeceğini `milisaniye` cinsinden belirtir. Varsayılan değeri `5000` milisaniyedir (5 saniye). Örnekteki gibi kullanıcıdan, belli bir aralıkta değer alacaksanız, arayan kişi `#`'yi tuşlayarak bu süreyi beklemeden girdi işlemini sonlandırabilir. Örneğin, yukarıdaki gibi minimum 2, maksimum 5 karakter uzunluğundaki değerde, kullanıcı her tuşlamasının ardından 5 sn bir sonraki değeri girmesi için beklenir, kullanıcı 5 karakter tuşladıysa veya bekleme süresi dolduysa tuşladığı değer size iletilir. Fakat kullanıcının gireceği değer 3 karakter ise istenen değeri tuşladıktan sonra `#`'ye basarak işleme devam edebilir.
 
 ### dial
 
