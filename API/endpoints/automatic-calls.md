@@ -118,6 +118,7 @@ Otomatik arama başlatmak için apiye zorunlu olarak gönderilmesi gereken param
 * **announcement_id:** Aranınca çalınacak ses dosyasının id'si
 * **sound_url:** Aranınca çalınacak ses dosyasının url'i
 * **bulutfon_xm_id:** Aranınca aktarılacak BulutfonXM id'si
+* **timeout** Telefonun çalma süresini belirtir (0 - 60sn arası)
 * **NOT:** announcement_id, sound_url ve bulutfon_xm_id den sadece biri gönderilmelidir. 
 
 Bunların yanısıra gönderilebilecek opsiyonel parametler de,
