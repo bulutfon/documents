@@ -91,16 +91,19 @@ Bulutfon ile gönderilen otomatik aramaların listelendiği, ve yeni otomatik ar
       {
         "number": 905322222222,
         "has_called": true,
+        "answer": true,
         "gather": 2
       },
       {
         "number": 905323333333,
         "has_called": true,
+        "answer": false,
         "gather": 4
       },
       {
         "number": 905324444444,
         "has_called": true,
+        "answer": false,
         "gather": 1
       }
     ]
@@ -148,4 +151,5 @@ Yapılacak aramaların tamamı aynı anda başlatılmayıp sıra ile yapılacağ
 * **recipients:** Aranan numara bilgileri.
     * **number:** Aranan numara
     * **has_called:** Çağrı başarılı mı
+    * **answer:** Çağrı cevaplandı mı
     * **gather:** Aranan kişi bir tuşa bastıysa basılan tuş
