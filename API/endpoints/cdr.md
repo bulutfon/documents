@@ -164,6 +164,7 @@ Filtreleme için kullanacağınız parametreler
 * **caller:** Parametre ile gönderilen numarayı arayan numaraya göre filtreler (virgül ile ayırarak birden fazla numara sorgulanabilir)
 * **callee:** Parametre ile gönderilen numarayı aranan numaraya göre filtreler (virgül ile ayırarak birden fazla numara sorgulanabilir)
 * **limit:** Her sayfada gösterilecek kayıt sayısını belirtir.
+* **missing_call:** Kaçan çağrı filtresidir, boolean değer alır, boş bırakılırsa tüm çağrılar çekilir.
 * **order:** İstenilen fielda göre arama kayıtlarını sıralar. Ör: `&order=uuid,asc`
 * **time_limit:** Zaman bazında filtreleme için kullanılır, alabileceği değerler:
     * **hour:** Son 1 saat içerisinde oluşturulan kayıtları gösterir
