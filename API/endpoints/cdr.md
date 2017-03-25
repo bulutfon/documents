@@ -15,61 +15,77 @@ Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gere
 {
   "cdrs": [
     {
-      "uuid": "87f444b4-fd56-11e4-acd8-ffc986c99ca0",
+      "uuid": "b75d34a7-9cc5-4801-8530-406c6aea0e09",
       "bf_calltype": "voice",
       "direction": "OUT",
-      "caller": 908508850000,
-      "callee": 905323440000,
+      "caller": 902322290000,
+      "callee": 905542510000,
+      "extension": "902322290000",
+      "call_time": "2017-03-15T09:46:06+03:00",
+      "answer_time": null,
+      "hangup_time": "2017-03-15T09:46:54+03:00",
       "missing_call": false,
-      "extension": 908508850249,
-      "call_time": "2015-05-18T15:08:01+03:00",
-      "answer_time": "2015-05-18T15:08:13+03:00",
-      "hangup_time": "2015-05-18T15:08:20+03:00",
-      "call_price": 0.01143,
-      "call_record": "Yok",
+      "call_price": null,
+      "call_record": "NO",
       "hangup_cause": "NORMAL_CLEARING",
-      "hangup_state": "send_bye"
+      "hangup_state": "recv_refuse"
     },
     {
-      "uuid": "7f13c2fc-fd56-11e4-ac8a-ffc986c99ca0",
+      "uuid": "704b83fa-4d98-40f3-97cb-44882dcbed04",
       "bf_calltype": "voice",
       "direction": "OUT",
-      "caller": 908508850000,
-      "callee": 905326200000,
+      "caller": 902322290000,
+      "callee": 905363950000,
+      "extension": "902322290000",
+      "call_time": "2017-03-15T09:46:05+03:00",
+      "answer_time": "2017-03-15T09:46:34+03:00",
+      "hangup_time": "2017-03-15T09:46:46+03:00",
       "missing_call": false,
-      "extension": 908508850249,
-      "call_time": "2015-05-18T15:07:46+03:00",
-      "answer_time": "2015-05-18T15:07:58+03:00",
-      "hangup_time": "2015-05-18T15:08:01+03:00",
-      "call_price": 0.00429,
-      "call_record": "Yok",
+      "call_price": "0.0182",
+      "call_record": "NO",
       "hangup_cause": "NORMAL_CLEARING",
       "hangup_state": "recv_bye"
     },
     {
-      "uuid": "76c702b2-fd56-11e4-ac58-ffc986c99ca0",
+      "uuid": "468d0eb5-7396-4742-a38c-590471883c0d",
       "bf_calltype": "voice",
       "direction": "OUT",
-      "caller": 908508850000,
-      "callee": 905073010000,
+      "caller": 902322290000,
+      "callee": 905068118260,
+      "extension": "902322290000",
+      "call_time": "2017-03-15T09:46:04+03:00",
+      "answer_time": "2017-03-15T09:46:21+03:00",
+      "hangup_time": "2017-03-15T09:46:35+03:00",
       "missing_call": false,
-      "extension": 908508850249,
-      "call_time": "2015-05-18T15:07:32+03:00",
-      "answer_time": "2015-05-18T15:07:43+03:00",
-      "hangup_time": "2015-05-18T15:07:49+03:00",
-      "call_price": 0.00888,
-      "call_record": "Yok",
+      "call_price": "0.0212",
+      "call_record": "NO",
       "hangup_cause": "NORMAL_CLEARING",
-      "hangup_state": "send_bye"
+      "hangup_state": "recv_bye"
+    },
+    {
+      "uuid": "d3201ad3-bfa2-4647-8737-3a8f03ecb5be",
+      "bf_calltype": "voice",
+      "direction": "OUT",
+      "caller": 902322290000,
+      "callee": 905068110000,
+      "extension": "902322290000",
+      "call_time": "2016-09-28T15:35:38+03:00",
+      "answer_time": "2016-09-28T15:35:44+03:00",
+      "hangup_time": "2016-09-28T15:35:48+03:00",
+      "missing_call": false,
+      "call_price": "0.01",
+      "call_record": "NO",
+      "hangup_cause": "NORMAL_CLEARING",
+      "hangup_state": "recv_bye"
     }
   ],
   "pagination": {
     "page": 1,
-    "total_count": 236,
-    "total_pages": 79,
-    "limit": 3,
+    "total_count": 4,
+    "total_pages": 1,
+    "limit": 100,
     "previous_page": null,
-    "next_page": "https://api.bulutfon.com/cdrs?page=2"
+    "next_page": null
   }
 }
 ```
@@ -168,6 +184,7 @@ Filtreleme için kullanacağınız parametreler
 * **caller:** Parametre ile gönderilen numarayı arayan numaraya göre filtreler (virgül ile ayırarak birden fazla numara sorgulanabilir)
 * **callee:** Parametre ile gönderilen numarayı aranan numaraya göre filtreler (virgül ile ayırarak birden fazla numara sorgulanabilir)
 * **limit:** Her sayfada gösterilecek kayıt sayısını belirtir.
+* **missing_call:** Kaçan çağrı filtresidir, boolean değer alır, boş bırakılırsa tüm çağrılar çekilir.
 * **order:** İstenilen fielda göre arama kayıtlarını sıralar. Ör: `&order=uuid,asc`
 * **time_limit:** Zaman bazında filtreleme için kullanılır, alabileceği değerler:
     * **hour:** Son 1 saat içerisinde oluşturulan kayıtları gösterir
