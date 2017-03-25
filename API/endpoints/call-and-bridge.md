@@ -1,15 +1,15 @@
-# Call
+# Call & Bridge
 
-Api üzerinden arama gerçekleştirerek dahiliye bağlama işlemi yapar.
+Api üzerinden arama gerçekleştirerek menü, grup veya dahiliye bağlama işlemi yapar.
 
 ## URL'ler
 
 [Liste](http://api.bulutfon.com/docs#!/Originate)
 
-* `POST /call.json` Api üzerinden arama yapıp dahiliye bağlama işlemi yapar.
+* `POST /call_and_bridge.json` Api üzerinden arama yapıp menü, grup veya dahiliye bağlama işlemi yapar.
 
 ### Örnek Sonuç
-call?access_token=XXX&caller=XXX&callee=XXX&extension=XXX
+call_and_bridge?access_token=XXX&caller=XXX&callee=XXX&destination=XXXX
 ```json
     {
         "success": true,
@@ -24,7 +24,10 @@ call?access_token=XXX&caller=XXX&callee=XXX&extension=XXX
 * Zorunlu Alanlar
     * **caller:** Aramanın gerçekleştirileceği santralinizdeki size ait numara.
     * **callee:** Aranacak numara.
-    * **extension:** Aramanın aktarılacağı dahili.
+    * **destination:** Aramanın aktarılacağı yer.
+        * XX Menüye yönlendir.
+        * XXX Gruba yönlendir.
+        * XXXX Dahiliye yönlendir.
 
 * Opsiyonel Alanlar
     * **timeout:** Arama sırasında beklenecek olan çalma süresi.
