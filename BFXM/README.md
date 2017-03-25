@@ -1,4 +1,4 @@
-#BFXM(BulutFon eXternal Manager)
+# BFXM(BulutFon eXternal Manager)
 
 Bulutfon, harici bir web sunucusundan BFON formatında alacağı direktif dosyaları ile pbx davranışlarını düzenleyebilir. Bu özelliğe BFXM diyoruz. 
 

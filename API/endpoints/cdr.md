@@ -100,6 +100,7 @@ Arama kayıtları ile ilgili işlemleriniz için bu scope'a istek yapmanız gere
         "direction": "IN",
         "caller": 905070000000,
         "callee": 908508850000,
+        "missing_call": false,
         "call_time": "2015-04-16T11:02:02+03:00",
         "answer_time": "2015-04-16T11:02:02+03:00",
         "hangup_time": "2015-04-16T11:04:44+03:00",

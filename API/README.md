@@ -1,4 +1,4 @@
-# Bulutfon API Dökümantasyonu
+# Bulutfon API Dokümantasyonu
 
 **REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **username** **password**, **token** veya **OAuth 2** kullanılabilir.
 
@@ -126,12 +126,12 @@ Sadece JSON formatını destekliyoruz.
 
 ## Nasıl Yapılır Kılavuzları
 
-* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](http://akademi.help/php-curl-kullanilarak-bulutfonla-sms-gonderme-uygulamasi/)
-* [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](http://akademi.help/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek/)
-* [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi/)
-* [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-fax-gonderme-islemi/)
-* [Php, Curl, Bulutfon API'yi kullanarak gönderilen faxların listelenmesi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-gonderilen-faxlar/)
-* [PHP, Curl, Bulutfon Apiyi Kullanarak Arama Kayıtlarının Çekilmesi](http://akademi.help/php-curl-bulutfon-apiyi-kullanarak-arama-kayitlarinin-cekilmesi/)
+* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-kullanilarak-bulutfonla-sms-gonderme-uygulamasi)
+* [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek)
+* [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi)
+* [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-fax-gonderme-islemi)
+* [Php, Curl, Bulutfon API'yi kullanarak gönderilen faxların listelenmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi)
+* [PHP, Curl, Bulutfon Apiyi Kullanarak Arama Kayıtlarının Çekilmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-arama-kayitlarinin-cekilmesi)
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 
