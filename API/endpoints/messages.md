@@ -59,7 +59,7 @@ Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointti
         "send_date": null,
         "recipients": [
           {
-            "number": 905322041584,
+            "number": 905xxxxxxxxx,
             "state": "SENT"
           }
         ]
