@@ -98,6 +98,12 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 ##### Parametreleri
   - caller_name : String olarak arayan bilgisi
 
+### sleep
+Bu method ile görüşme esnasında bekleme yaptırabilirsiniz. 
+
+##### Parametreleri
+  - timeout : Ne kadar beklenmesi gerektiğini saniye olarak belirtebilirsiniz.
+
 ### return_data
 
 Bu method ile bir sonraki istekte bize geri dönülmesini istediğimiz datayı belirleyebiliriz. Bu method ile birden fazla adım içeren çağrı planlarında, oturum mantığı tanımlanabilir. 
