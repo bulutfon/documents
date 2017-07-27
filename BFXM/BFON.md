@@ -15,6 +15,7 @@ Response ile birlikte döndürülen **BFON**'un (json) bütün parametreleri tam
 * [reject](#reject)
 * [set_caller](#set_caller)
 * [return_data](#return_data)
+* [sleep](#sleep)
 
 ### play
 
@@ -95,6 +96,14 @@ Bu method ile bir sonraki istekte bize geri dönülmesini istediğimiz datayı b
 
 value : String formatında bir değerdir. Eğer array veya kullanılmak istenirse ilgili kullanılacak dilin decode ve encode methodlarına bakılabilir.
 
+### sleep
+
+Bu method ile görüşme esnasında bekleme yaptırabilirsiniz. 
+
+**args**
+
+timeout: Ne kadar beklenmesi gerektiğini saniye olarak belirtebilirsiniz.
+
 ## Örnek
 
 ```json
@@ -131,6 +140,12 @@ value : String formatında bir değerdir. Eğer array veya kullanılmak istenirs
             "args": {
                 "lang": "tr",
                 "text": "Merhaba dünya."
+            }
+        },
+        {
+            "action": "sleep",
+            "args": {
+                "timeout": "60"
             }
         },
         {
