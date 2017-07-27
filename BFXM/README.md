@@ -98,7 +98,7 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
 ##### Parametreleri
   - caller_name : String olarak arayan bilgisi
 
-### sleep
+### sleep
 Bu method ile görüşme esnasında bekleme yaptırabilirsiniz. 
 
 ##### Parametreleri
