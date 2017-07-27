@@ -99,6 +99,7 @@ Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanıml
   - caller_name : String olarak arayan bilgisi
 
 ### sleep
+
 Bu method ile görüşme esnasında bekleme yaptırabilirsiniz. 
 
 ##### Parametreleri
