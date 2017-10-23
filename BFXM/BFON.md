@@ -48,11 +48,13 @@ Arayanı menüye, gruba, dahiliye veya harici bir numaraya yönlendirir.
 **args**
 
 * destination: "1000"
+* hide_cli_on_diversion : "true"
 
 **Notlar**
 
 * Bulutfon'da menüler 2 haneli, gruplar 3 haneli, dahililer 4 hanelidir.
 * Harici numaralara yönlendirmede aranan operatöre göre bir yönlendirme ücreti alınır.
+* hide_cli_on_diversion false olarak gönderilirse, yönlendirmelerde arayanın numarası görünür.
 
 ### continue
 
