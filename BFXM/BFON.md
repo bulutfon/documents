@@ -70,6 +70,8 @@ Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek
 * voice: "woman",
 * text: "Merhaba, dünya."
 
+**NOT**: Bu method şuan desteklenmiyor. Bunun yerine her hangi bir TTS sistemi kullanarak play methodunu kullanabilirsiniz.
+
 **Notlar**
 
 * Bu özellik kelime başına bir ücrete tabii olacaktır. O yüzden bütün cümleyi değil değişken olan bölümü `say` yöntemiyle kullanmanız önerilir.
