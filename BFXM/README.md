@@ -31,13 +31,6 @@ BFXM in web sunucudan beklediği örnek BFON dökümanı şu şekilde olabilir. 
       }
     },
     {
-      "action" : "say",
-      "args" : {
-        "lang" : "tr",
-        "text" : "Merhaba dünya."
-      }
-    },
-    {
       "action" : "set_caller_name",
       "args" : {
        "caller_name" : "ABC İnşaat Firması"
@@ -91,6 +84,8 @@ Parametrelerde gönderilen metni karşı arayana okur.
 ##### Parametreleri
   - lang : Dil (tr,en)
   - text : Okunacak metin
+
+**NOT** Bu method şuan desteklenmiyor. Bunun yerine her hangi bir TTS sistemi kullanarak play methodunu kullanabilirsiniz.
 
 ### set_caller_name
 Santral kullanıcılarına aktarılan çağrılarda özel arayan bilgisi tanımlar.
