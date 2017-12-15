@@ -34,12 +34,11 @@ MESSAGE TITLES, SMS başlığını ifade etmektedir. SMS Başlıkları panelden 
     }
 ```
 ### Örnek Sonuç (Kara Liste)
-*message-titles/{id}/sms-rejections.json?access_token=xxx*
+*message-titles/{message_title}/sms-rejections.json?access_token=xxx*
 ```json
 {
     "sms_rejections": [
         {
-            "id": 5,
             "number": "905068118260",
             "sms_sent_at": "2017-12-15T12:02:26.212+03:00",
             "rejected_at": "2017-12-15T12:02:56.793+03:00"
@@ -48,7 +47,7 @@ MESSAGE TITLES, SMS başlığını ifade etmektedir. SMS Başlıkları panelden 
 }
 ```
 ### Örnek Sonuç (Kara Listeden Numara Çıkarma)
-*message-titles/{id}/sms-rejections/{rejection_id}.json?access_token=xxx*
+*message-titles/{message_title}/sms-rejections/{number}.json?access_token=xxx*
 ```json
 {
     "message": "Numara kara listeden kaldırıldı."
