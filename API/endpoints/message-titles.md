@@ -7,8 +7,8 @@ MESSAGE TITLES, SMS başlığını ifade etmektedir. SMS Başlıkları panelden 
 [Liste](http://api.bulutfon.com/docs#!/Message_Title)
 
 * `GET /message-titles.json?access_token=xxx*`
-* `GET /message-titles/{id}/sms-rejections.json?access_token=xxx*`
-* `DELETE /message-titles/{id}/sms-rejections/{rejection_id}.json?access_token=xxx*`
+* `GET /message-titles/{message_title}/sms-rejections.json?access_token=xxx*`
+* `DELETE /message-titles/{message_title}/sms-rejections/{number}.json?access_token=xxx*`
 
 ### Örnek Sonuç
 *message-titles.json?access_token=xxx*
