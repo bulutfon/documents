@@ -7,9 +7,11 @@ MESSAGE TITLES, SMS başlığını ifade etmektedir. SMS Başlıkları panelden 
 [Liste](http://api.bulutfon.com/docs#!/Message_Title)
 
 * `GET /message-titles.json?access_token=xxx*`
+* `GET /message-titles/{message_title}/sms-rejections.json?access_token=xxx*`
+* `DELETE /message-titles/{message_title}/sms-rejections/{number}.json?access_token=xxx*`
 
 ### Örnek Sonuç
-
+*message-titles.json?access_token=xxx*
 ```json
     {
       "message_titles": [
@@ -30,6 +32,26 @@ MESSAGE TITLES, SMS başlığını ifade etmektedir. SMS Başlıkları panelden 
         }
       ]
     }
+```
+### Örnek Sonuç (Kara Liste)
+*message-titles/{message_title}/sms-rejections.json?access_token=xxx*
+```json
+{
+    "sms_rejections": [
+        {
+            "number": "905068118260",
+            "sms_sent_at": "2017-12-15T12:02:26.212+03:00",
+            "rejected_at": "2017-12-15T12:02:56.793+03:00"
+        }
+    ]
+}
+```
+### Örnek Sonuç (Kara Listeden Numara Çıkarma)
+*message-titles/{message_title}/sms-rejections/{number}.json?access_token=xxx*
+```json
+{
+    "message": "Numara kara listeden kaldırıldı."
+}
 ```
 
 #### Sabitler
