@@ -97,7 +97,6 @@ Dönen json içerisindeki bazı alanlarda bulunan değişken anlamları aşağı
 
 * **title:** Mesaj Başlığı
 * **content:** Mesaj metni
-* **sent_as_single_sms:** Uzun mesajlar tek parça halinde mi iletilecek
 * **is_planned_sms:** İleri tarihli gönderilen mesaj mı?
 * **send_date:** İleri tarihli mesajların gönderileceği zaman
 * **created_at:** Oluşturulma zamanı
