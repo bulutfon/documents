@@ -79,6 +79,7 @@ Opsiyonel parametreler
 
 * **is_single_sms:** 1 mesaj boyutunu aşan mesajlar tek mesaj halinde mi iletilecek? (boolean)
 * **is_future_sms:** İleri tarihli mesaj (boolean)
+* **reject_link:** SMS sonuna ret linki ekle.  (boolean)
 * **send_date:** İleri tarihli mesajın gönderim tarihi (is_future_sms true olarak setlendiyse eklenmesi zorunludur. Format: "gun/ay/yıl saat:dakika")
 
 değişkenlerinin string olarak **/messages?access_token=xxx** adresine http post ile gönderilmesi gerekmektedir.
