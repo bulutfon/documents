@@ -54,7 +54,6 @@ Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointti
         "title": "TEST",
         "content": "Test Message",
         "created_at": "2015-06-18T18:21:01.150+03:00",
-        "sent_as_single_sms": false,
         "is_planned_sms": false,
         "send_date": null,
         "recipients": [
@@ -77,7 +76,6 @@ Mesaj göndermek için apiye gönderilmesi gereken zorunlu parametreler
 
 Opsiyonel parametreler
 
-* **is_single_sms:** 1 mesaj boyutunu aşan mesajlar tek mesaj halinde mi iletilecek? (boolean)
 * **is_future_sms:** İleri tarihli mesaj (boolean)
 * **reject_link:** SMS sonuna ret linki ekle.  (boolean)
 * **send_date:** İleri tarihli mesajın gönderim tarihi (is_future_sms true olarak setlendiyse eklenmesi zorunludur. Format: "gun/ay/yıl saat:dakika")
