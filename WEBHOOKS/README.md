@@ -18,19 +18,22 @@ Web kancasını oluşturduktan sonra aksiyonlarla ilgili parametreler verdiğini
 
 ## Eventlar
 
-WebHook ile tetiklenebilecek eventlar;
+WebHook ile tetiklenebilecek olaylar;
 
  * Arama Başlangıcı
  * Arama Bitişi
  * Gelen Faks
  * Kaçan Çağrı
+ * Dahiliye düşen çağrı
+ * Gruba düşen çağrı
+ * Menüye düşen çağrı
 
 Bu eventların bir ya da birden fazlası seçilebilir
 
 ## Gönderilecek parametreler
 
 * Arama Başlangıcı ve Gelen Faksta
-    * **event_type:** Olay tipi (call_init = Arama Başlangıcı, call_hangup = Arama Bitişi, fax_init = Gelen Fax, missing_call = Kaçan Çağrı)
+    * **event_type:** Olay tipi (call_init = Arama Başlangıcı, call_hangup = Arama Bitişi, fax_init = Gelen Fax, missing_call = Kaçan Çağrı, call_init_extension = Dahiliye düşen çağrı, call_init_group = Gruba düşen çağrı, call_init_manu = Menüye düşen çağrı)
     * **caller:** Arayan Numara
     * **callee:** Aranan Numara
     * **uuid:** Aramanın benzersiz id'si
@@ -51,6 +54,49 @@ Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/do
   "uuid": "f615986c-2001-11e5-bdee-6599352d46ce",
   "direction": "IN",
   "timestamp": 1435762851086820
+}
+```
+
+
+### Dahiliye Düşen Çağrı
+
+```json
+{
+  "event_type": "call_init_extension",
+  "caller": 90532000000,
+  "callee": 908508850000,
+  "uuid": "f615986c-2001-11e5-bdee-6599352d46ce",
+  "direction": "IN",
+  "timestamp": 1435762851086820,
+  "destination": 1000
+}
+```
+
+### Gruba Düşen Çağrı
+
+```json
+{
+  "event_type": "call_init_group",
+  "caller": 90532000000,
+  "callee": 908508850000,
+  "uuid": "f615986c-2001-11e5-bdee-6599352d46ce",
+  "direction": "IN",
+  "timestamp": 1435762851086820,
+  "destination": 111
+}
+```
+
+### Menüye Düşen Çağrı
+
+```json
+{
+  "event_type": "call_init_menu",
+  "caller": 90532000000,
+  "callee": 908508850000,
+  "uuid": "f615986c-2001-11e5-bdee-6599352d46ce",
+  "direction": "IN",
+  "timestamp": 1435762851086820,
+  "destination": 10
 }
 ```
 
