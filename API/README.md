@@ -1,80 +1,27 @@
 # Bulutfon API Dokümantasyonu
 
-**REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **username** **password**, **token** veya **OAuth 2** kullanılabilir.
+**REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **username** **password** veya **token** kullanılabilir.
 
 Endpointleri canlı ortamda deneyebileceğiniz [Bulutfon Api Dokümanını](http://api.bulutfon.com/docs) inceleyebilirsiniz.
 
 ## Kimlik Doğrulama ve Yetkilendirme
 
-Bulutfon'da API'ye üç tip login olma yöntemi vardır.
+Bulutfon'da API'ye iki tip login olma yöntemi vardır.
 
 1. Kullanıcı adı (yani epostanız) ve şifreniz ile
-2. Sistemden alacağınız tekil bir anahtar ile
-3. OAuth2 standartlarına göre oluşturacağınız uygulama ile
+2. Sistemden alacağınız tekil bir anahtar(token) ile
 
 ### Kullanıcı adı (email) ve şifre ile istek yapma
 
-İsteklerinizi OAUTH 2 protokolü veya master token kullanmak yerine giriş bilgilerinizi kullanarak yapmak isterseniz, Email adresinizi ve şifrenizi istek sırasında `email` ve `password` parametrelerii ile göndererek apiye doğrudan erişebilirsiniz.
+İsteklerinizi master token kullanmak yerine giriş bilgilerinizi kullanarak yapmak isterseniz, Email adresinizi ve şifrenizi istek sırasında `email` ve `password` parametrelerii ile göndererek apiye doğrudan erişebilirsiniz.
 
     https://api.bulutfon.com/cdrs?email={{email}}&password={{password}} // ŞeklindeErişim
 
 ### Master Token Kullanarak istek yapmak
 
-İsteklerinizi OAUTH 2 protokolü yerine direk master token kullanarak yapmak isterseniz, Panelden Uygulamalar > API Uygulamaları altında yer alan `Tekil Api Anahtarınızı` istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
+İsteklerinizi master token kullanarak yapmak isterseniz, [Bulutfon Santral Paneli > Genel Ayarlar > Geliştirici Seçenekleri](https://oim.bulutfon.com/account/pbx-settings/general-settings) sayfasından aldığınız tokenı istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
 
     https://api.bulutfon.com/cdrs?access_token={{master_token}} // Şeklinde
-
-### Uygulama oluşturma
-
-**[https://app.bulutfon.com](https://app.bulutfon.com)** adresindeki kullanıcı bilgileriniz ile panelinize giriş yaptıktan sonra. **Uygulamalar** menüsünün altında **API Uygulamaları > Yeni Uygulama Oluştur** diyerek forma uygulama adı ve token'ınızın döneceği callback url'i girip uygulamanızı oluşturun.
-
-* Uygulamada vereceğiniz yönlendirme adresi 'https' olmalıdır. Development ortamında test edebilmek için **[ngrok](https://ngrok.com/)** kullanabilirsiniz.
-
-* Uygulama oluşturulduktan sonra, **Yetkilendir** butonuna basarak erişim izni verin.
-
-* Bu işlemlerin ardından authorization kodunuz yönlendirme adresi olarak tanımladığınız url'e **code** parametresi ile gönderilecektir.
-
-* Son olarak bu gelen değeri
-
-    * client_id = Uygulama Anahtarı
-    * client_secret = Gizli Anahtar
-    * code = sistemden dönen authorization kodunuz
-    * redirect_uri = Yönlendirme url'iniz
-    * grant_type = authorization_code
-
-    parametreleri ile **[https://app.bulutfon.com/oauth/token](https://bulutfon.com/oauth/token)** adresine **POST** edin.
-* Sonuç olarak size aşağıdaki gibi bir access token dönecektir.
-
-```json
-    {
-        "access_token":"16a1094343d0271126f25124fda4159717e29e8ca87068389792dbb554d24385",
-        "token_type": "bearer",
-        "expires_in": 7200,
-        "refresh_token": "551f3f26dab1afd712c183399c93fab7846cf582c907263c4a7892c7a12cd02c",
-        "scope": "cdr call_record",
-        "created_at": 1429026419
-    }
-```
-
-Tokenınızı aldıktan sonra **[https://api.bulutfon.com](https://api.bulutfon.com)** adresinden yapacağınız isteklere **access_token** parametresi ile bu tokenı ekleyerek
-istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat sonra token'ınız zaman aşımına uğradığında yaptığınız isteklere
-
-```json
-    {
-        "error": "Token expired"
-    }
-```
-
-şeklinde bir yanıt dönecektir.
-* Token'ınızı yenilemek için
-
-    * client_id = Uygulama Anahtarı
-    * client_secret = Gizli Anahtar
-    * refresh_token = Size dönen json'daki refresh_token değeri
-    * redirect_uri = Yönlendirme url'iniz
-    * grant_type = refresh_token
-
-    parametreleri ile **[https://app.bulutfon.com/oauth/token](https://app.bulutfon.com/oauth/token)** adresine **POST** edin.
 
 ## EndPoint'ler
 
@@ -90,16 +37,6 @@ istek yapmanız gerekmektedir. Token'ın geçerlilik süresi 2 saattir. 2 saat s
 * **[Automatic Calls](https://github.com/bulutfon/documents/blob/master/API/endpoints/automatic-calls.md)** - Otomatik Aramalar
 * **[Message Titles](https://github.com/bulutfon/documents/blob/master/API/endpoints/message-titles.md)** - Mesaj Başlıkları
 * **[Messages](https://github.com/bulutfon/documents/blob/master/API/endpoints/messages.md)** - Mesajlar
-
-## Masaüstü Uygulamada Token Almak
-
-Masaüstü uygulamanızda token almak hali hazırda bir webserver olmadığı için sorun yaratmaktadır. Bunu çözmek için:
-
-* Uygulama oluştururken yönlendirme adresini `urn:ietf:wg:oauth:2.0:oob` olarak tanımlayın.
-* Desktop uygulamanızda kullanıcınızı link ile veya uygulamanızın içerisinde bir browser açarak standart akışta da bulunan erişim isteyeceğiniz adrese yönlendirin.
-* Kullanıcın erişimi onayladıktan sonra, yetkilendirme kodunun yazdığı html bir sayfaya yönlendirilecektir.
-* Kullanıcıdan gördüğü erişim anahtarını bir textbox'a kopyalayıp yapıştırmasını isteyip, ardından bu değişkeni `code` parametresi olarak kullanarak access token'ınızı alabilirsiniz.
-* Bu işlem tek seferlik olacaktır. Access token'ı bir kez aldığınız zaman yenilemek için refresh token yetecektir.
 
 ## XML Değil Sadece JSON Desteği
 
@@ -126,12 +63,13 @@ Sadece JSON formatını destekliyoruz.
 
 ## Nasıl Yapılır Kılavuzları
 
-* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-kullanilarak-bulutfonla-sms-gonderme-uygulamasi)
-* [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek)
-* [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi)
-* [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-fax-gonderme-islemi)
-* [Php, Curl, Bulutfon API'yi kullanarak gönderilen faxların listelenmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi)
-* [PHP, Curl, Bulutfon Apiyi Kullanarak Arama Kayıtlarının Çekilmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-arama-kayitlarinin-cekilmesi)
+* [Geliştirici Bilgi Bankası](https://www.bulutfon.com/category/blog/api-entegrasyon/)
+* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](https://www.bulutfon.com/php-curl-kullanilarak-bulutfon-ile-sms-gonderme-uygulamasi/)
+* [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](https://www.bulutfon.com/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek/)
+* [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-gelen-fakslari-listeleme/)
+* [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-fax-gonderme-islemi/)
+* [Php, Curl, Bulutfon API'yi kullanarak gönderilen faxların listelenmesi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-gonderilen-faxlarin-listelenmesi/)
+* [PHP, Curl, Bulutfon Apiyi Kullanarak Arama Kayıtlarının Çekilmesi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-arama-kayitlarinin-cekilmesi/)
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 

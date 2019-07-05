@@ -4,7 +4,7 @@ Bulutfon'la kendi yazılımlarını entegre yapmak isteyen geliştiricilerin iht
 
 # İçindekiler
 
-* [API](https://github.com/bulutfon/documents/blob/master/API/README.md) - OAuth2, RestFull standartında, JSON destekleyen Bulutfon API'si
+* [API](https://github.com/bulutfon/documents/blob/master/API/README.md) - RestFull standartında, JSON destekleyen Bulutfon API'si
 * [BFXM](https://github.com/bulutfon/documents/tree/master/BFXM#bfxm---bulutfon-external-manager) - Bulutfon External Management
 * [BFON](https://github.com/bulutfon/documents/tree/master/BFON#bfon---bulutfon-object-notation) - Bulutfon Object Notation
 * [WEBHOOKS](https://github.com/bulutfon/documents/tree/master/WEBHOOKS) - Web Kancaları
@@ -15,7 +15,7 @@ Bulutfon'un geliştirme ekosistemini tartıştığımız [Bulutfon Entegrasyon �
 
 ## Bulutfon API
 
-Bulutfon, API'si OAuth2 ve Restfull standartlara göre yapılmış sadece JSON tipini desteklemektedir. Bulutfon API'si ile santral numaraları, dahililer, gruplar, arama kayıtları, faks gibi Bulutfon panelindeki işlemleri yapabilir ve yönetebilirsiniz.
+Bulutfon, API'si Restfull standartlara göre yapılmış sadece JSON tipini desteklemektedir. Bulutfon API'si ile santral numaraları, dahililer, gruplar, arama kayıtları, faks gibi Bulutfon panelindeki işlemleri yapabilir ve yönetebilirsiniz.
 
 * [API Dokümanları](https://github.com/bulutfon/documents/blob/master/API/README.md)
 * [API Geliştirici Formu](http://devforums.bulutfon.com/c/api)
