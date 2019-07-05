@@ -1,16 +1,25 @@
 # Bulutfon API Dokümantasyonu
 
-**REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON** kullanılabilir.
+**REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **username** **password** veya **token** kullanılabilir.
 
 Endpointleri canlı ortamda deneyebileceğiniz [Bulutfon Api Dokümanını](http://api.bulutfon.com/docs) inceleyebilirsiniz.
 
 ## Kimlik Doğrulama ve Yetkilendirme
 
-Bulutfon API'ye santral panelinizden bulabileceğiniz **token** ile erişim sağlayabilirsiniz.
+Bulutfon'da API'ye iki tip login olma yöntemi vardır.
+
+1. Kullanıcı adı (yani epostanız) ve şifreniz ile
+2. Sistemden alacağınız tekil bir anahtar(token) ile
+
+### Kullanıcı adı (email) ve şifre ile istek yapma
+
+İsteklerinizi master token kullanmak yerine giriş bilgilerinizi kullanarak yapmak isterseniz, Email adresinizi ve şifrenizi istek sırasında `email` ve `password` parametrelerii ile göndererek apiye doğrudan erişebilirsiniz.
+
+    https://api.bulutfon.com/cdrs?email={{email}}&password={{password}} // ŞeklindeErişim
 
 ### Master Token Kullanarak istek yapmak
 
-Santral Paneli > Genel Ayarlar > Geliştirici Ayarları sayfasında ürettiğiniz Api Anahtarınızı istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
+İsteklerinizi master token kullanarak yapmak isterseniz, [Bulutfon Santral Paneli > Genel Ayarlar > Geliştirici Seçenekleri](https://oim.bulutfon.com/account/pbx-settings/general-settings) sayfasından aldığınız tokenı istek sırasında `access_token` parametresi ile göndererek apiye doğrudan erişebilirsiniz.
 
     https://api.bulutfon.com/cdrs?access_token={{master_token}} // Şeklinde
 
@@ -28,16 +37,6 @@ Santral Paneli > Genel Ayarlar > Geliştirici Ayarları sayfasında ürettiğini
 * **[Automatic Calls](https://github.com/bulutfon/documents/blob/master/API/endpoints/automatic-calls.md)** - Otomatik Aramalar
 * **[Message Titles](https://github.com/bulutfon/documents/blob/master/API/endpoints/message-titles.md)** - Mesaj Başlıkları
 * **[Messages](https://github.com/bulutfon/documents/blob/master/API/endpoints/messages.md)** - Mesajlar
-
-## Masaüstü Uygulamada Token Almak
-
-Masaüstü uygulamanızda token almak hali hazırda bir webserver olmadığı için sorun yaratmaktadır. Bunu çözmek için:
-
-* Uygulama oluştururken yönlendirme adresini `urn:ietf:wg:oauth:2.0:oob` olarak tanımlayın.
-* Desktop uygulamanızda kullanıcınızı link ile veya uygulamanızın içerisinde bir browser açarak standart akışta da bulunan erişim isteyeceğiniz adrese yönlendirin.
-* Kullanıcın erişimi onayladıktan sonra, yetkilendirme kodunun yazdığı html bir sayfaya yönlendirilecektir.
-* Kullanıcıdan gördüğü erişim anahtarını bir textbox'a kopyalayıp yapıştırmasını isteyip, ardından bu değişkeni `code` parametresi olarak kullanarak access token'ınızı alabilirsiniz.
-* Bu işlem tek seferlik olacaktır. Access token'ı bir kez aldığınız zaman yenilemek için refresh token yetecektir.
 
 ## XML Değil Sadece JSON Desteği
 
@@ -64,12 +63,13 @@ Sadece JSON formatını destekliyoruz.
 
 ## Nasıl Yapılır Kılavuzları
 
-* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-kullanilarak-bulutfonla-sms-gonderme-uygulamasi)
-* [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek)
-* [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi)
-* [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-fax-gonderme-islemi)
-* [Php, Curl, Bulutfon API'yi kullanarak gönderilen faxların listelenmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-gelen-fakslarin-listelenmesi)
-* [PHP, Curl, Bulutfon Apiyi Kullanarak Arama Kayıtlarının Çekilmesi](https://www.bulutfon.com/gelistirici-makaleleri/api/php-curl-bulutfon-apiyi-kullanarak-arama-kayitlarinin-cekilmesi)
+* [Geliştirici Bilgi Bankası](https://www.bulutfon.com/category/blog/api-entegrasyon/)
+* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](https://www.bulutfon.com/php-curl-kullanilarak-bulutfon-ile-sms-gonderme-uygulamasi/)
+* [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](https://www.bulutfon.com/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek/)
+* [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-gelen-fakslari-listeleme/)
+* [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-fax-gonderme-islemi/)
+* [Php, Curl, Bulutfon API'yi kullanarak gönderilen faxların listelenmesi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-gonderilen-faxlarin-listelenmesi/)
+* [PHP, Curl, Bulutfon Apiyi Kullanarak Arama Kayıtlarının Çekilmesi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-arama-kayitlarinin-cekilmesi/)
 
 ## Daha iyisini yapmamız için geri bildirimde bulunun!
 
