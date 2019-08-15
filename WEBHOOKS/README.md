@@ -167,36 +167,6 @@ Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/do
   "timestamp": 1435762855286302,
   "hangup_cause": "NORMAL_CLEARING",
   "direction": "IN",
-  "cdr": {
-    "uuid": "f615986c-2001-11e5-bdee-6599352d46ce",
-    "bf_calltype": "voice",
-    "bf_direction": "IN",
-    "bf_caller": 905326200000,
-    "bf_callee": 908508850000,
-    "call_time": "2015-07-01T18:00:51+03:00",
-    "answer_time": "2015-07-01T18:00:51+03:00",
-    "hangup_time": "2015-07-01T18:00:55+03:00",
-    "call_record": false,
-    "hangup_cause": "NORMAL_CLEARING",
-    "sip_hangup_disposition": "recv_bye",
-    "callflow": [
-      {
-        "callee": 908508850000,
-        "start_time": "2015-07-01T18:00:51+03:00",
-        "answer_time": null,
-        "hangup_time": null,
-        "redirection": "REDIRECTED_TO_MENU",
-        "redirection_target": 99
-      },
-      {
-        "callee": 99,
-        "start_time": "2015-07-01T18:00:51+03:00",
-        "answer_time": "2015-07-01T18:00:51+03:00",
-        "hangup_time": "2015-07-01T18:00:55+03:00",
-        "redirection": "CONNECTING_TO_MENU"
-      }
-    ]
-  }
 }
 ```
 
