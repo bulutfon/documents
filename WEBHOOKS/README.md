@@ -23,7 +23,7 @@ WebHook ile tetiklenebilecek olaylar;
  * Arama Başlangıcı
  * Arama Bitişi
  * Gelen Faks
- * Kaçan Çağrı
+ * Cevaplanmayan çağrı
  * Dahiliye düşen çağrı
  * Gruba düşen çağrı
  * Menüye düşen çağrı
@@ -156,7 +156,7 @@ Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/do
   "timestamp": 1450458620079404
 }
 ```
-### Kaçan Çağrı
+### Cevaplanmayan çağrı
 
 ```json
 {
