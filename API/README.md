@@ -1,3 +1,13 @@
+# Önemli Duyuru
+
+Firmamız Ocak 2020 itibariyle APIv2 sürümünü yayına almıştır. Yeni yapacagınız geliştirmelerde APIv1 degil APIv2 kullanmanız şiddet ile tavsiye ediyoruz. 
+
+* APIv2 Dokümanı https://api.bulutfon.com/docs
+* Blog Yazımız https://www.bulutfon.com/bulutfon-api-v2-nin-yayinlanmasi/ 
+* APIv2 ile ilgili blog yazıları https://www.bulutfon.com/tag/apiv2/
+
+Github'daki API doküman tamamen APIv1 üzerinedir. Yukarıdaki linkleri takip etmenizi öneriyoruz. BulutfonXM ve Webkancalarıyla ilgili bir degisiklik olmamıştır. Sadece APIv1 güncellenmiştir.
+
 # Bulutfon API Dokümantasyonu
 
 **REST** mimarisinde tasarlanmış Bulutfon API'si, serileştirme için **JSON**, yetkilendirme için **username** **password** veya **token** kullanılabilir.
