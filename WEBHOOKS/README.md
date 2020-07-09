@@ -177,8 +177,3 @@ Arama Bitişinde bu parametrelere ek olarak [CDR](https://github.com/bulutfon/do
 * [Bulutfon Webkancalarıyla gelen çağrıların veritabanına kayıt uygulaması](https://www.youtube.com/watch?v=ohqd3EcgJDw)
 * [Ngrok'un kurulumu ve kullanımı](https://www.youtube.com/watch?v=bnIs7q_-Olc)
 
-## Örnekler ve Açık Kaynak Projeler
-
-**Örnekler**
-
-* Aramaları HipChatte odaya gönderen PHP uygulaması - https://github.com/bulutfon/documents/tree/master/WEBHOOKS/Examples/Php/Hipchat
