@@ -124,9 +124,7 @@ Bu method ile bir sonraki istekte bize geri dönülmesini istediğimiz datayı b
 
 **Açık Kaynak Projeler**
 
-* [netinternet/bfxm-whmcs](https://github.com/netinternet/bfxm-whmcs) - [Netinternet](netinternet.com.tr) firmasının geliştirdiği [Whmcs](www.whmcs.com), [Hipchat](www.hipchat), BFXM uygulaması. Arayan müşterinin son beş destek talebini hipchatte gösteriyor.
-* [bulutfon-apps/notifications-for-permit](https://github.com/bulutfon-apps/notifications-for-permit) - [Ahmet İlhan](https://github.com/ahmetilhann)'in geliştirdiği arayan kişilerden bildirim izinleri alarak izinli ve izinsiz listesi oluşturan bir proje.
-* [ahmetilhann/bulutfon-bfxm-mesai-saatleri](https://github.com/ahmetilhann/bulutfon-bfxm-mesai-saatleri) - [Ahmet İlhan](https://github.com/ahmetilhann)'in geliştirdiği öğlen arasında, mesai saatlerinde ve mesai saatleri dışında farklı menülere aktaran ayrıca bazı günlerde özelleştirilebilen BulutfonXM örneği. Ayrıca ilgili örneğin nasıl yapılığını anlatan  [blog yazısı](http://devblogs.bulutfon.com/bulutfonxm-ile-mesai-saatleri-uygulamasi-yapimi/) mevcuttur.
+* [ahmetilhann/bulutfon-bfxm-mesai-saatleri](https://github.com/ahmetilhann/bulutfon-bfxm-mesai-saatleri) - [Ahmet İlhan](https://github.com/ahmetilhann)'in geliştirdiği öğlen arasında, mesai saatlerinde ve mesai saatleri dışında farklı menülere aktaran ayrıca bazı günlerde özelleştirilebilen BulutfonXM örneği. Ayrıca ilgili örneğin nasıl yapılığını anlatan  [blog yazısı](https://www.bulutfon.com/bulutfonxm-ile-mesai-saatleri-uygulamasi-yapimi/) mevcuttur.
 
 ## Eğitim Videoları
 
@@ -135,5 +133,5 @@ Bu method ile bir sonraki istekte bize geri dönülmesini istediğimiz datayı b
 
 ## Daha iyisi yapmamız için geri bildirimde bulunun!
 
-Lütfen bizlere daha iyi bir API'yi nasıl yapacağımızı söyleyin, geri bildirimde bulunun. Eğer API'de bir özelliğe ihtiyacınız varsa veya bir hata bulduysanız, lütfen [geliştirici formuna](http://devforums.bulutfon.com/) konu açın.
+Lütfen bizlere daha iyi bir API'yi nasıl yapacağımızı söyleyin, geri bildirimde bulunun. Eğer API'de bir özelliğe ihtiyacınız varsa veya bir hata bulduysanız, lütfen [geliştirici formuna](https://devforums.bulutfon.com/) konu açın.
 
