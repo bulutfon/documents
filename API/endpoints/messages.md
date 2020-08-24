@@ -1,4 +1,10 @@
-# MESSAGES
+# MESSAGES (KULLANIMDAN KALDIRILDI)
+
+-------
+
+**Önemli NOT:** Bulutfon SMS hizmeti vermeyi 31/12/2020 tarihi itibariyle sonlandıracaktır. Bu bağlamda 31/12/2020 itibariyle bu endpoint kullanımdan kaldırılacaktır.
+
+-------
 
 Gönderilen mesajlarınıza ulaşıp, yeni mesaj gönderebileceğiniz endpointtir.
 
