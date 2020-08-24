@@ -1,4 +1,6 @@
-# MESSAGE TITLES
+# MESSAGE TITLES (KULLANIMDAN KALDIRILDI)
+
+**Önemli NOT:** Bulutfon SMS hizmeti vermeyi 31/12/2020 tarihi itibariyle bırakacaktır. Bu bağlamda 31/12/2020 itibariyle bu endpoint kullanımdan kaldırılacaktır. 
 
 MESSAGE TITLES, SMS başlığını ifade etmektedir. SMS Başlıkları panelden bir dilekçe ile başvurulur. Başlılar Onay Bekleniyor (DRAFT), Onaylı (CONFIRMED), Red edildi (REJECTED) şeklindedir. **Sadece onaylı SMS başlığıyla SMS gönderebilirsiniz.** .
 
