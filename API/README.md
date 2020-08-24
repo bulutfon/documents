@@ -45,8 +45,8 @@ Bulutfon'da API'ye iki tip login olma yöntemi vardır.
 * **[Outgoing Faxes](https://github.com/bulutfon/documents/blob/master/API/endpoints/outgoing-faxes.md)** - Giden fakslar
 * **[Announcements](https://github.com/bulutfon/documents/blob/master/API/endpoints/announcements.md)** - Ses Dosyaları
 * **[Automatic Calls](https://github.com/bulutfon/documents/blob/master/API/endpoints/automatic-calls.md)** - Otomatik Aramalar
-* **[Message Titles](https://github.com/bulutfon/documents/blob/master/API/endpoints/message-titles.md)** - Mesaj Başlıkları
-* **[Messages](https://github.com/bulutfon/documents/blob/master/API/endpoints/messages.md)** - Mesajlar
+* **[Message Titles](https://github.com/bulutfon/documents/blob/master/API/endpoints/message-titles.md)** - Mesaj Başlıkları - (KULLANIMDAN KALDIRILDI)
+* **[Messages](https://github.com/bulutfon/documents/blob/master/API/endpoints/messages.md)** - Mesajlar - (KULLANIMDAN KALDIRILDI)
 
 ## XML Değil Sadece JSON Desteği
 
@@ -74,7 +74,6 @@ Sadece JSON formatını destekliyoruz.
 ## Nasıl Yapılır Kılavuzları
 
 * [Geliştirici Bilgi Bankası](https://www.bulutfon.com/category/blog/api-entegrasyon/)
-* [Php, Curl kullanılarak Bulutfon'la SMS gönderme uygulaması](https://www.bulutfon.com/php-curl-kullanilarak-bulutfon-ile-sms-gonderme-uygulamasi/)
 * [Php, Curl ile Bulutfon API'sini kullanarak dahili listesini göstermek](https://www.bulutfon.com/php-curl-ile-bulutfon-apisini-kullanarak-dahili-listesini-gostermek/)
 * [Php, Curl, Bulutfon API'yi kullanarak gelen faksların listelenmesi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-gelen-fakslari-listeleme/)
 * [Php, Curl, Bulutfon API'yi kullanarak fax gönderme İşlemi](https://www.bulutfon.com/php-curl-bulutfon-api-kullanarak-fax-gonderme-islemi/)
