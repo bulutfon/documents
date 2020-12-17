@@ -78,9 +78,6 @@ Kullanıcıdan bir girdi tuşlatır. Gather methodu kullanıldığında, BFON do
   - play_on_error : Hata durumunda çalınacak mp3 ses kaydı urlsi.
   - variable_name : verilen cevabın atanacağı değişken. 
 
-### say
-Parametrelerde gönderilen metni karşı arayana okur. 
-
 ##### Parametreleri
   - lang : Dil (tr,en)
   - text : Okunacak metin
