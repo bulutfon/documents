@@ -10,7 +10,6 @@ Response ile birlikte döndürülen **BFON**'un (json) bütün parametreleri tam
 * [gather](#gather)
 * [dial](#dial)
 * [continue](#continue)
-* [say](#say) (yakında eklenecek)
 * [hangup](#hangup)
 * [reject](#reject)
 * [set_caller](#set_caller)
@@ -59,10 +58,6 @@ Arayanı menüye, gruba, dahiliye veya harici bir numaraya yönlendirir.
 ### continue
 
 Arama planı kaldığı yerden devam eder. Harici yönetim adresine tekrar istek yapar.
-
-### say (yakında eklenecek)
-
-Şuan sistemde text to speech özelliği yoktur.
 
 **args**
 
@@ -137,13 +132,6 @@ timeout: Ne kadar beklenmesi gerektiğini saniye olarak belirtebilirsiniz.
             "action": "dial",
             "args": {
                 "destination": "1000"
-            }
-        },
-        {
-            "action": "say",
-            "args": {
-                "lang": "tr",
-                "text": "Merhaba dünya."
             }
         },
         {
